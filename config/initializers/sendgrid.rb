@@ -1,4 +1,4 @@
-if Rails.env.test? or Rails.env.development?
+if Rails.env.production?
   user_name = ENV['SENDGRID_USERNAME']
   password  = ENV['SENDGRID_PASSWORD']
   domain    = ENV['SENDGRID_DOMAIN']
