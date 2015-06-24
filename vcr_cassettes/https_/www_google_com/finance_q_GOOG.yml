@@ -1,0 +1,799 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.google.com/finance?q=GOOG
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.1.5p273 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - www.google.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      P3p:
+      - CP="This is not a P3P policy! See http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=151657
+        for more info."
+      Date:
+      - Wed, 24 Jun 2015 12:50:06 GMT
+      Expires:
+      - Wed, 24 Jun 2015 12:50:06 GMT
+      Cache-Control:
+      - private, max-age=0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Set-Cookie:
+      - NID=68=G1_TGPEzgtY3ZCDvtT1sE_HdSFW4i59q08rmGPwDJe67ItBtIp-EoB3YHaSBCrTFu8WnQtfaNLuAaTO_4ozt8qq6FfYIlRdwvXfKnaQkkSKlb9og7-gvxNcPUVrfV2B1;Domain=.google.com;Path=/;Expires=Thu,
+        24-Dec-2015 12:50:06 GMT;HttpOnly
+      Alternate-Protocol:
+      - 443:quic,p=1
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html><html><head><script>(function(){(function(){function
+        e(a){this.t={};this.tick=function(a,c,b){var d=void 0!=b?b:(new Date).getTime();this.t[a]=[d,c];if(void
+        0==b)try{window.console.timeStamp(\"CSI/\"+a)}catch(e){}};this.tick(\"start\",null,a)}var
+        a;window.performance&&(a=window.performance.timing);var f=a?new e(a.responseStart):new
+        e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart,d=a.responseStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var
+        b=window.jstiming.load;0<c&&d>=c&&(b.tick(\"_wtsrt\",void 0,c),b.tick(\"wtsrt_\",\n\"_wtsrt\",d),b.tick(\"tbsd_\",\"wtsrt_\"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick(\"_tbnd\",void
+        0,window.chrome.csi().startE),b.tick(\"tbnd_\",\"_tbnd\",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick(\"_tbnd\",void
+        0,window.external.startE),b.tick(\"tbnd_\",\"_tbnd\",c))),a&&(window.jstiming.pt=a)}catch(g){}})();})();\n</script><title>Google
+        Inc: NASDAQ:GOOG quotes & news - Google Finance</title><meta name=\"Description\"
+        content=\"Get detailed financial information on Google Inc (NASDAQ:GOOG) including
+        real-time stock quotes, historical charts & financial news, all for free!\"><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=10\"><link rel=\"canonical\" href=\"http://www.google.com/finance?cid=304466804484872\"><link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/finance/f/finance_us-3578168175.css\"><link
+        rel=\"stylesheet\" type=\"text/css\" href=\"/finance/_/ss/a/ver=weedrhfieacs/am=!vutE9fCSVdws1JA_/bf=/r=O\"><link
+        rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/finance/favicon.ico\"><style>#gbar,#guser{font-size:13px;padding-right:8px;padding-top:4px
+        !important;}#gbar{padding-left:8px;height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px
+        solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media
+        all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline
+        !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf
+        .gb4{color:#900 !important}</style><script></script><script>\n      function
+        _rpt() {}\n      function _tck() {}\n    </script><script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n
+        \   ga('create', 'UA-40765809-1', {\n      'allowLinker': true,\n      'cookiePath':
+        '/finance'\n    });\n    ga('send', 'pageview');\n    </script></head><body><div
+        class=fjfe-bodywrapper><div id=fjfe-real-body class=g-doc><input type=\"text\"
+        name=\"hist_state\" id=\"hist_state\" style=\"display:none;\"><iframe id=\"hist_frame\"
+        name=\"hist_frame\" class=invfr tabindex=\"-1\"></iframe><iframe src=\"/finance/_/js/a/b/rt=h/ver=2gMDYVmDK2c.en_US./am=!vutE9fCSVdws1JA_/d=0\"
+        class=invfr tabindex=\"-1\"></iframe><div id=gbar><nobr><a class=gb1 href=\"https://www.google.co.il/webhp?tab=ew\">Search</a>
+        <a class=gb1 href=\"http://www.google.co.il/imghp?hl=en&tab=ei\">Images</a>
+        <a class=gb1 href=\"https://maps.google.co.il/maps?hl=en&tab=el\">Maps</a>
+        <a class=gb1 href=\"https://play.google.com/?hl=en&tab=e8\">Play</a> <a class=gb1
+        href=\"https://www.youtube.com/?tab=e1\">YouTube</a> <a class=gb1 href=\"https://news.google.co.il/nwshp?hl=en&tab=en\">News</a>
+        <a class=gb1 href=\"https://mail.google.com/mail/?tab=em\">Gmail</a> <a class=gb1
+        href=\"https://drive.google.com/?tab=eo\">Drive</a> <a class=gb1 style=\"text-decoration:none\"
+        href=\"http://www.google.co.il/intl/en/options/\"><u>More</u> &raquo;</a></nobr></div><div
+        id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span
+        id=gbe></span><a  href=\"http://www.google.com/support/finance?hl=en\" class=gb4>Help</a>
+        | <a target=_top id=gb_70 href=\"https://accounts.google.com/ServiceLogin?service=finance&passive=1209600&continue=https://www.google.com/finance?q%3DGOOG&followup=https://www.google.com/finance?q%3DGOOG\"
+        class=gb4>Sign in</a></nobr></div><div class=gbh style=left:0></div><div class=gbh
+        style=right:0></div><div id=fjfe-click-wrapper><script>\n(function() {\n  var
+        l = window.location;\n  var q = l.search ? l.search.substr(1) : '';\n  var
+        h = l.hash ? l.hash.substr(1) : '';\n  var p = '/finance';\n  var ss = 'stockscreener';\n
+        \ var conn = window.history && window.history.pushState ? '/' : '#';\n  if
+        (l.pathname == p + '/' + ss) {\n    if (h) l.href = p + conn + ss + '?' +
+        q + '&' + h;\n  } else if (l.pathname != p && h) {\n    l.href = p + l.hash;\n
+        \ }\n  if (h) {\ndocument.getElementById('fjfe-click-wrapper').style.display
+        = 'none';\n  }\n})();\n</script><div id=gf-head class=\"g-section g-tpl-75-25
+        g-split\"><div class=\"g-unit g-first\"><div class=fjfe-logo><a href=\"/finance/?ei=fqeKVeDlJ8ScUt2TgcAE\"><img
+        src=\"/finance/f/logo_us-115376669.gif\" alt=\"Google Finance\"></a></div><div
+        id=gf-search class=fjfe-search><form method=\"get\" action=\"/finance\" autocomplete=\"off\"><input
+        class=fjfe-searchbox-input name=q type=text tabindex=1 value=\"NASDAQ:GOOG\"></input><span
+        class=fjfe-searchbox-button-wrapper><span class=fjfe-searchbox-button-wrapper2><input
+        class=fjfe-searchbox-button type=submit tabindex=2 value=\"Get quotes\"></input></span></span><input
+        type=hidden name=\"ei\" value=\"fqeKVeDlJ8ScUt2TgcAE\"></input></form></div></div><div
+        class=\"g-unit fjfe-promo\"><div id=\"ad2-target\" class=\"id-ad2-target\"></div></div></div><div
+        class=elastic><div id=app class=\"g-section g-tpl-left-11p4em\"><div class=\"g-unit
+        g-first\"><div id=gf-nav><div class=fjfe-nav-nav><ul class=fjfe-nav id=navmenu><li
+        class=\"fjfe-nav-expanded fjfe-nav-selected\">Company<li class=fjfe-nav-sub><div>Summary</div><li
+        class=fjfe-nav-sub><a href=\"/finance/company_news?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\">News</a><li
+        class=fjfe-nav-sub><a href=\"/finance/option_chain?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\">Option
+        chain</a><li class=fjfe-nav-sub><a href=\"/finance/related?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\">Related
+        companies</a><li class=fjfe-nav-sub><a href=\"/finance/historical?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\">Historical
+        prices</a><li class=fjfe-nav-sub><a href=\"/finance?q=NASDAQ:GOOG&amp;fstype=ii&amp;ei=fqeKVeDlJ8ScUt2TgcAE\">Financials</a><li
+        class=fjfe-nav-item><a href=\"/finance?ei=fqeKVeDlJ8ScUt2TgcAE\"><div>Markets</div></a><li
+        class=fjfe-nav-item><a href=\"/finance/market_news?ei=fqeKVeDlJ8ScUt2TgcAE\"><div>News</div></a><li
+        class=fjfe-nav-item><a href=\"/finance/portfolio?action=view&amp;ei=fqeKVeDlJ8ScUt2TgcAE\"><div>Portfolios</div></a><li
+        class=fjfe-nav-item><a href=\"/finance/stockscreener?ei=fqeKVeDlJ8ScUt2TgcAE\"><div>Stock
+        screener</div></a><li class=fjfe-nav-item><a href=\"/finance/domestic_trends?ei=fqeKVeDlJ8ScUt2TgcAE\"><div>Google
+        Domestic Trends</div></a></ul></div><div class=\"fjfe-recentquotes fjfe-recentquotes-noquote\"><h4>Recent
+        Quotes <span class=\"fjfe-recentquotes-duration\">(<a href=\"//www.google.com/history/optout?hl=en\">30
+        days</a>)</span></h4><div class=fjfe-recentquotes-noquote-notification>You
+        have no recent quotes</div><div class=fjfe-recentquotes-quotes><div class=\"fjfe-toggle
+        fjfe-toggle-button\"><span class=fjfe-chg-toggle>chg</span> | <span class=fjfe-perc-toggle>%</span></div><div
+        class=fjfe-table-div><table class=fjfe-recentquotes-table id=rq width=100%></table></div></div></div></div><script>var
+        _cleardot = 'data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';\n
+        \   var google = google || {};\n    google.finance = google.finance || {};\n
+        \   google.finance.gce =false;</script><script src=\"/finance/f/sfe-opt-2670621683.js\"></script><script>\n
+        \     _regOnLoad = function(f) {\n        if (document.readyState == 'complete')
+        {\n          f && f();\n        } else {\n          // Window.attachEvent()
+        for IE8 and below compatability.\n          var addEventFunction = window.attachEvent
+        ||\n              window.addEventListener || function(ignored, f) { f(); };\n
+        \         var event = window.attachEvent ? 'onload' : 'load';\n          f
+        && addEventFunction(event, f);\n        }\n      };\n    \n      google.finance.renderRecentQuotes
+        = function() {};\n    </script></div><div class=g-unit id=gf-viewc><div class=fjfe-content>\n<script>\n(function()
+        {\nif (window['_finance_chart']) {\nvar el = document.getElementById('chart_anchor');\nif
+        (el) {\nel.innerHTML = '';\n}\nsetFinanceChart(null);\n}\n})();\nvar _ticker
+        = 'NASDAQ:GOOG';\nvar _slHeight = 221;\nvar _companyName = 'Google Inc';\nvar
+        _companyPageNewsTab = '0';\nvar _displayVolume = true;\nsetCompanyId(694653);\n_s_Store._numToDisplay
+        = 6;\n_comparison_charts_Store._numToDisplay = 8;\n_comparison_charts_Store._allowMultiTimezoneCompare
+        = true;\nfunction onCompanyLoad() {\n_external_target = \"\";\n_emitFlashChartOnLoad(\n\"/finance/s/aEc4Twn89CE/chart9.swf?hl=en&gl=us\",\n_ticker,
+        \"chart_anchor\", \"market-data-div\",\n_chartConfigObject);\ngoogle.finance.onCompanyLoad();\n_initAutoFocus();\nif
+        (google.finance.initTechnicals) {\ngoogle.finance.initTechnicals(true);\n}\n}\n</script>\n<div
+        class=g-wrap>\n<div class=\"g-section sfe-break-bottom-8\">\n<div class=\"g-tpl-67-33
+        g-split hdg top appbar-hide\" id=companyheader>\n<div class=\"g-unit g-first\"><h3>Google
+        Inc&nbsp;&nbsp;</h3>(Public, NASDAQ:GOOG)&nbsp;&nbsp;\n<a href=\"/finance/portfolio?action=add&amp;addticker=NASDAQ%3AGOOG&ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=norm>Watch this stock</a>\n&nbsp;\n</div><div class=\"g-unit norm\">Find
+        more results for<b>\n<a href=\"?noIL=1&q=GOOG&ei=fqeKVeDlJ8ScUt2TgcAE\" id=searchmore>GOOG</a></b>\n</div>\n</div>\n</div>\n\n<script>\n_ac_register(function
+        (input, event) {\nif (input.id == 'add_comparison_symbol') {\n_comparison_charts_Store.baseTicker
+        = \"NASDAQ:GOOG\";\nreturn _comparison_charts_Store;\n}\n});\nvar _prefs=_prefs||{};_prefs.hash=\"\";\n_prefs.feeds=_prefs.feeds||{};\n_prefs.ch=_prefs.ch||{};\n_prefs.ch_compare=_prefs.ch_compare||{};\nvar
+        _chartConfigObject;\nvar _cleardot;\nvar _companyName;\nvar _eventid = 'fqeKVeDlJ8ScUt2TgcAE';\nvar
+        _expid;\nvar _external_target;\nvar _localDomain = 'www.google.com';\nvar
+        _minZoomDays;\nvar _minZoomDaysNoIntraDay;\nvar _prefs;\nvar _ticker;\nvar
+        _urlSuffix;\nvar google = google || {};\ngoogle.finance = google.finance ||
+        {};\ngoogle.finance.data = {common:{rq:{ct:\"\"},up:\"chg\",down:\"chr\",linktargetInternal:\"\",hash:\"\",dfp:\"ad-g.doubleclick.net/adi/com.gf.company/technology;fe=nasdaq;ft=goog;fm=large;ssl=1;dcopt=ist;myd=ad;sz=300x250;tile=1\",streaming:[{cid:\"304466804484872\",s:\"GOOG\",e:\"NASDAQ\"},{cid:\"700029\",s:\"BIDU\",e:\"NASDAQ\"},{cid:\"10670257\",s:\"YNDX\",e:\"NASDAQ\"},{cid:\"662862\",s:\"BCOR\",e:\"NASDAQ\"},{cid:\"658890\",s:\"YHOO\",e:\"NASDAQ\"},{cid:\"358464\",s:\"MSFT\",e:\"NASDAQ\"},{cid:\"659872\",s:\"IACI\",e:\"NASDAQ\"},{cid:\"18241\",s:\"IBM\",e:\"NYSE\"},{cid:\"296878244325128\",s:\"FB\",e:\"NASDAQ\"},{cid:\"22144\",s:\"AAPL\",e:\"NASDAQ\"},{cid:\"32086821185414\",s:\"TWTR\",e:\"NYSE\"}],dfp_companion:\"ad-g.doubleclick.net/adi/com.gf.company/technology;fe=nasdaq;ft=goog;fm=large;ssl=1;dcopt=ist;myd=ad2;sz=33x33;tile=2\"},company:{news:{clusters:[{nrel:444,idx:0,id:\"52778886690937\",lead_story_url:\"http://www.bidnessetc.com/46114-google-inc-takes-on-apple-inc-and-spotify-with-its-own-free-adsupported-mus/\",a:[{t:\"Google
+        Inc Takes On Apple Inc. And Spotify With Its Own Free, Ad-Supported ...\",u:\"http://www.bidnessetc.com/46114-google-inc-takes-on-apple-inc-and-spotify-with-its-own-free-adsupported-mus/\",s:\"Bidness
+        ETC\",sp:\"According to recent news by Bloomberg, Google Inc. (NASDAQ:GOOGL)
+        launched its free-trial music streaming service on Tuesday.\",d:\"2 hours
+        ago\",tt:\"1435141125\",usg:\"AFQjCNEEpWlFx9ZyFlKsOsJFeM2FmwjJUw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46114-google-inc-takes-on-apple-inc-and-spotify-with-its-own-free-adsupported-mus/\\u0026cid=52778886690937\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGer9MfRdyt5wTxrvDL2hTm0m8VYw\"},{t:\"Google
+        Inc launches free, ad-supported version of Google Play Music as Apple ...\",u:\"http://business.financialpost.com/fp-tech-desk/google-inc-launches-free-ad-supported-version-of-google-play-music-as-apple-music-launch-nears\",s:\"Financial
+        Post\",sp:\"Google Inc.\\u0026#39;s music service will now include free Web-radio
+        stations, seeking to lure users days before Apple Inc. debuts its streaming
+        feature.\",d:\"19 hours ago\",tt:\"1435079025\",usg:\"AFQjCNFM3M6yYXgIu2yhJKPzW2uuAOe7Zw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://business.financialpost.com/fp-tech-desk/google-inc-launches-free-ad-supported-version-of-google-play-music-as-apple-music-launch-nears\\u0026cid=52778886690937\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEJwb-bhmYYB4JFyoce8u9S-Cxuyw\"},{t:\"GOOGL
+        \\u0026amp; AAPL News Update: Google Inc(NASDAQ:GOOGL), Apple Inc ...\",u:\"http://www.wsnewspublishers.com/googl-aapl-news-update-google-incnasdaqgoogl-apple-inc-nasdaqaapl-google-incnasdaqgoog/1512856/\",s:\"wsnewspublishers\",sp:\"Google
+        Inc (GOOGL)\\u0026#39;s music service will now comprise free Web-radio stations,
+        seeking to lure users days before Apple Inc. debuts its streaming feature.\",d:\"19
+        hours ago\",tt:\"1435079025\",usg:\"AFQjCNFzC6amzIfGEFnJ2WZHjUtLLcPX5w\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.wsnewspublishers.com/googl-aapl-news-update-google-incnasdaqgoogl-apple-inc-nasdaqaapl-google-incnasdaqgoog/1512856/\\u0026cid=52778886690937\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFEZ4iuxvkBAHYdoCPL0inAELAK2Q\"}],lead_story_doc_id:\"5833693012287069518\"},{nrel:17,idx:1,id:\"52778886089298\",lead_story_url:\"http://www.valuewalk.com/2015/06/google-transparent-revenue-analyst/\",a:[{t:\"Google
+        Inc Must Be More Transparent On Revenue: Morgan Stanley\",u:\"http://www.valuewalk.com/2015/06/google-transparent-revenue-analyst/\",s:\"ValueWalk\",sp:\"Google
+        Inc (NASDAQ:GOOG) (NASDAQ:GOOGL) could make its stock price move by over $100
+        if the internet firm would provide more details on how they make their revenue,
+        argues Morgan Stanley (NYSE:MS) analyst Brian Nowack.\",d:\"19 hours ago\",tt:\"1435080375\",usg:\"AFQjCNHUJ_ajlsTj_LS8o1w73HU9_J7qLQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.valuewalk.com/2015/06/google-transparent-revenue-analyst/\\u0026cid=52778886089298\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGRYohkqA3jctjC9csb2vYMAoTJyA\"},{t:\"Google
+        Inc CFO Should Use Cash Returns As A Weapon: Morgan Stanley\",u:\"http://www.bidnessetc.com/45993-google-inc-cfo-should-use-cash-returns-as-a-weapon-morgan-stanley/\",s:\"Bidness
+        ETC\",sp:\"In a research note today, Morgan Stanley (NYSE:MS) has put forward
+        the recommendation as to the new Google Inc.\\u0026#39;s (NASDAQ:GOOGL) CFO,
+        Ruth Porat for increasing shareholder returns.\",d:\"Jun 22, 2015\",tt:\"1435002075\",usg:\"AFQjCNERxlZtE5UErrdyPdseYK5eEpd1wg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/45993-google-inc-cfo-should-use-cash-returns-as-a-weapon-morgan-stanley/\\u0026cid=52778886089298\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFyEshwJYMxBaZl1W-r_bKD_HKwGA\"},{t:\"Google
+        Inc (GOOGL) Throws Its Hat In Digital News Space With News Lab\",u:\"http://investcorrectly.com/20150623/google-inc-googl-throws-its-hat-in-digital-news-space-with-news-lab/\",s:\"InvestCorrectly\",sp:\"Google
+        Inc (NASDAQ:GOOGL) is entering the digital news space with the launch of \\u0026#39;News
+        Lab\\u0026#39;. Obviously, the company felt the pressure of entering the segment
+        when its rivals are busy in announcing tie-ups with different media firms.\",d:\"Jun
+        23, 2015\",tt:\"1435056075\",usg:\"AFQjCNEhPQkYM0rstwHsvVKjem80uYsthg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://investcorrectly.com/20150623/google-inc-googl-throws-its-hat-in-digital-news-space-with-news-lab/\\u0026cid=52778886089298\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNE-1cEiIY6w1hbl3z1ofkKfdmXtTg\"}],lead_story_doc_id:\"9630138488638707166\"},{nrel:2,idx:2,id:\"52778886559676\",lead_story_url:\"http://business.financialpost.com/legal-post/canadian-court-orders-google-inc-to-remove-b-c-company-from-searches\",a:[{t:\"Canadian
+        court orders Google Inc to remove B.C. company from searches\",u:\"http://business.financialpost.com/legal-post/canadian-court-orders-google-inc-to-remove-b-c-company-from-searches\",s:\"Financial
+        Post\",sp:\"The injunction against Google is also notable because the massive
+        web search company isn\\u0026#39;t even a party to the original lawsuit that
+        brought the search results to court.\",d:\"Jun 23, 2015\",tt:\"1435062192\",usg:\"AFQjCNHrkpSiTnsqv6SK_2vEWIpCmyrgIw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://business.financialpost.com/legal-post/canadian-court-orders-google-inc-to-remove-b-c-company-from-searches\\u0026cid=52778886559676\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNG7pXPaNtMGHpuYCgRQeZl0dArWeA\"}],lead_story_doc_id:\"220286753832851537\"},{nrel:2,idx:3,id:\"52778887131119\",lead_story_url:\"http://www.bidnessetc.com/46123-google-inc-container-engine-platform-goes-beta/\",a:[{t:\"Google
+        Inc Container Engine Platform Goes Beta\",u:\"http://www.bidnessetc.com/46123-google-inc-container-engine-platform-goes-beta/\",s:\"Bidness
+        ETC\",sp:\"Google Inc\\u0026#39;s (NASDAQ:GOOG) Container Engine platform
+        has now been launched in beta mode, the company announced yesterday.\",d:\"1
+        hour ago\",tt:\"1435143150\",usg:\"AFQjCNGfjLLXSnyZAuCxCXlJOKMWmCcRTw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46123-google-inc-container-engine-platform-goes-beta/\\u0026cid=52778887131119\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFshAkTEbbS8Q3rIm899rY2JCHLgw\"}],lead_story_doc_id:\"9997855991501283740\"},{nrel:527,idx:4,id:\"52778886457910\",lead_story_url:\"http://business.financialpost.com/business-insider/google-inc-launches-feature-that-lets-you-unsend-email-in-gmail\",a:[{t:\"Google
+        Inc launches feature that lets users \\u0026#39;unsend\\u0026#39; email in
+        Gmail\",u:\"http://business.financialpost.com/business-insider/google-inc-launches-feature-that-lets-you-unsend-email-in-gmail\",s:\"Financial
+        Post\",sp:\"We\\u0026#39;ve had the ability to &#8220;unsend&#8221; emails
+        in Gmail for about six years now, but the feature was somewhat hidden in the
+        obscure Labs section of Gmail\\u0026#39;s settings.\",d:\"16 hours ago\",tt:\"1435091268\",usg:\"AFQjCNE8WhxV3fJFlMH92PghZlFlCkT-3w\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://business.financialpost.com/business-insider/google-inc-launches-feature-that-lets-you-unsend-email-in-gmail\\u0026cid=52778886457910\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHwmCcZXS7PVHq0Q24EdKgtO51rag\"},{t:\"Google
+        Inc. Finally Takes Gmail\\u0026#39;s \\u0026#39;Undo Send\\u0026#39; Feature
+        Out Of Beta\",u:\"http://www.bidnessetc.com/46062-google-inc-finally-takes-gmails-undo-send-feature-out-of-beta/\",s:\"Bidness
+        ETC\",sp:\"Google Inc.\\u0026#39;s (NASDAQ:GOOG) \\u0026#39;undo\\u0026#39;
+        feature for emails has now exited the Google Labs platform and landed as an
+        option under \\u0026#39;general tabs.\",d:\"22 hours ago\",tt:\"1435068225\",usg:\"AFQjCNHud5Cy_j21u3PUEMNVEuorv1NolA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46062-google-inc-finally-takes-gmails-undo-send-feature-out-of-beta/\\u0026cid=52778886457910\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHqMHkD-xVWzczGR3bdrTMqXTHAIA\"},{t:\"Google
+        protects Gmail users from sending misdirected or inappropriate email\",u:\"http://abc7news.com/business/google-protects-gmail-users-from-sending-regrettable-notes/801543/\",s:\"abc7news.com\",sp:\"In
+        this undated screenshot of Google Inc.\\u0026#39;s Gmail interface, messages
+        are shown on similar topics grouped into \\u0026quot;conversations.\",d:\"16
+        hours ago\",tt:\"1435092370\",usg:\"AFQjCNH1JvEsgI600cU7jsWsZ63Yt7MDVA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://abc7news.com/business/google-protects-gmail-users-from-sending-regrettable-notes/801543/\\u0026cid=52778886457910\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHQOV36V740Sgpv24YdQ-Tpp2p68Q\"}],lead_story_doc_id:\"9821403585651516878\"},{nrel:106,idx:5,id:\"52778884553930\",lead_story_url:\"http://www.bidnessetc.com/46051-google-inc-news-lab-helps-journalists-boost-online-publishing-quality/\",a:[{t:\"Google
+        Inc &#8220;News Lab&#8221; Helps Journalists Boost Online Publishing Quality\",u:\"http://www.bidnessetc.com/46051-google-inc-news-lab-helps-journalists-boost-online-publishing-quality/\",s:\"Bidness
+        ETC\",sp:\"Yesterday, Google Inc. (NASDAQ:GOOG) unveiled News Lab, a website
+        primarily targeted towards journalists, to guide them to operate various Google
+        Tools.\",d:\"23 hours ago\",tt:\"1435066875\",usg:\"AFQjCNHR922k-cphAzSBbpjK4mIr2e8-nQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46051-google-inc-news-lab-helps-journalists-boost-online-publishing-quality/\\u0026cid=52778884553930\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEfW7oEPFxz5MobtX_JY3zXWhpVLQ\"},{t:\"Google
+        Inc (GOOG) Enters Media Space Through \\u0026#39;News Labs\\u0026#39; Giving
+        ...\",u:\"http://www.opptrends.com/2015/06/google-inc-goog-enters-media-space-through-news-labs-giving-competition-to-facebook-apple-and-twitter/\",s:\"Opptrends\",sp:\"As
+        Facebook Inc (NASDAQ:FB), Apple Inc. (NASDAQ:AAPL), Twitter Inc (NYSE:TWTR)
+        and Snap chat have already showed interest in leading the future of digital
+        news; it seems that they have one more strong contender joining in the list.\",d:\"Jun
+        23, 2015\",tt:\"1435060125\",usg:\"AFQjCNEagHZjwxOUUN877nDuhvl4yKMoOA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.opptrends.com/2015/06/google-inc-goog-enters-media-space-through-news-labs-giving-competition-to-facebook-apple-and-twitter/\\u0026cid=52778884553930\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGvxULkAEgq9U09KJQNxIKDCqcNJg\"},{t:\"Google
+        Inc. (GOOG) Taking Back News Territory From Facebook Inc. (FB)\",u:\"http://learnbonds.com/google-inc-goog-taking-back-news-territory-from-facebook-inc-fb/119555/\",s:\"LearnBonds\",sp:\"Google
+        Inc. (NASDAQ:GOOG) has reclaimed territory lost to Facebook Inc. (NASDAQ:FB)
+        on how it influences the creation and delivery of news.\",d:\"Jun 23, 2015\",tt:\"1435063500\",usg:\"AFQjCNGZDR6bo4V4u3g85kBGXzMGDDdKnQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://learnbonds.com/google-inc-goog-taking-back-news-territory-from-facebook-inc-fb/119555/\\u0026cid=52778884553930\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNESQfNG2sTM85WqnbenBzcXzjrzPQ\"}],lead_story_doc_id:\"957370735915262697\"},{nrel:8,idx:6,id:\"52778885952018\",lead_story_url:\"http://www.bidnessetc.com/46033-insider-selling-google-inc-goog-tyson-foods-inc-tsn-workday-inc-wday/\",a:[{t:\"Insider
+        Selling: Google Inc (GOOG), Tyson Foods, Inc. (TSN), Workday Inc. (WDAY)\",u:\"http://www.bidnessetc.com/46033-insider-selling-google-inc-goog-tyson-foods-inc-tsn-workday-inc-wday/\",s:\"Bidness
+        ETC\",sp:\"Bidness Etc unveils recent insider selling at Google Inc. (NASDAQ:GOOG),
+        Tyson Foods, Inc. (NYSE:TSN), and Workday Inc. (NYSE:WDAY).\",d:\"Jun 23,
+        2015\",tt:\"1435062825\",usg:\"AFQjCNEg0yvwQsGLgQTHAzm2UTNPRa-s8A\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46033-insider-selling-google-inc-goog-tyson-foods-inc-tsn-workday-inc-wday/\\u0026cid=52778885952018\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFUNN2ZyRXOUc5102pExXq7A6O7RA\"}],lead_story_doc_id:\"4197533027708845931\"},{nrel:85,idx:7,id:\"52778884952581\",lead_story_url:\"http://www.bidnessetc.com/46024-google-inc-introduces-android-wear-watch-faces-as-smartwatch-battle-heats-u/\",a:[{t:\"Google
+        Inc Introduces Android Wear Watch Faces As Smartwatch Battle Heats Up\",u:\"http://www.bidnessetc.com/46024-google-inc-introduces-android-wear-watch-faces-as-smartwatch-battle-heats-u/\",s:\"Bidness
+        ETC\",sp:\"Apple Inc. (NASDAQ:AAPL) does not support third-party development
+        options; at least not nearly as much as Google does, so this is something
+        that could play nicely into Google\\u0026#39;s hands. A smartwatch is much
+        more than just watch faces and while Google\\u0026nbsp;...\",d:\"Jun 23, 2015\",tt:\"1435060800\",usg:\"AFQjCNHbyJBjrB8448mTJMNDi7hwTnG1Vg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46024-google-inc-introduces-android-wear-watch-faces-as-smartwatch-battle-heats-u/\\u0026cid=52778884952581\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNETf-N0SM-XINOacVcYUp5GoGdpag\"},{t:\"Google
+        Outs 17 New Watch Faces For Your Android Wear: Hello Kitty, Angry ...\",u:\"http://www.techtimes.com/articles/62776/20150623/google-outs-17-new-watch-faces-for-your-android-wear-hello-kitty-angry-birds-terminator-and-more.htm\",s:\"Tech
+        Times\",sp:\"Google recently admitted that there is a bug within Android Wear
+        5.1.1 that is causing the batteries of the devices running the operating system
+        to drain faster.\",d:\"Jun 23, 2015\",tt:\"1435060800\",usg:\"AFQjCNF7f6wmE2ShD64zUivEMxiDWfTj_w\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.techtimes.com/articles/62776/20150623/google-outs-17-new-watch-faces-for-your-android-wear-hello-kitty-angry-birds-terminator-and-more.htm\\u0026cid=52778884952581\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGjOaQeq7Ot5IkMFJ4xbErWY9PCrw\"}],lead_story_doc_id:\"9146339296121603338\"},{nrel:33,idx:8,id:\"52778885991372\",lead_story_url:\"http://www.bidnessetc.com/46035-google-inc-googgopro-inc-16camera-vr-rig-heres-how-you-can-try-it-out/\",a:[{t:\"Google
+        Inc (GOOG)-GoPro Inc 16-Camera VR Rig: Here\\u0026#39;s How You Can Try It
+        Out\",u:\"http://www.bidnessetc.com/46035-google-inc-googgopro-inc-16camera-vr-rig-heres-how-you-can-try-it-out/\",s:\"Bidness
+        ETC\",sp:\"Google is looking for individuals to test the mammoth 16-camera
+        virtual reality rig called &#8220;Google Jump&#8221; that the company has
+        developed in collaboration with GoPro. The tech giants have released a Google
+        form, which starts by introducing Jump as the ...\",d:\"Jun 23, 2015\",tt:\"1435063500\",usg:\"AFQjCNEfX_uo8f-uvPaaP9ByGpWhvlPxXw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/46035-google-inc-googgopro-inc-16camera-vr-rig-heres-how-you-can-try-it-out/\\u0026cid=52778885991372\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFK6P_beQnIhmq-d50aS4MU1ceMww\"}],lead_story_doc_id:\"8624288405754808140\"},{idx:9,id:\"0\",lead_story_url:\"http://www.bidnessetc.com/45967-google-inc-opens-campus-madrid-as-a-hub-for-collaboration/\",a:[{t:\"Google
+        Inc Opens Campus Madrid As A Hub For Collaboration\",u:\"http://www.bidnessetc.com/45967-google-inc-opens-campus-madrid-as-a-hub-for-collaboration/\",s:\"Bidness
+        ETC\",sp:\"Over the weekend, the tech giant Google Inc. (NASDAQ:GOOGL) conducted
+        the official inauguration of its latest campus in Madrid, Spain - called Campus
+        Madrid - as reported by The Next Web .\",d:\"Jun 22, 2015\",tt:\"1434987225\",usg:\"AFQjCNGVfbnqn1nvweig3kX4U7a1v3G4KA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/45967-google-inc-opens-campus-madrid-as-a-hub-for-collaboration/\\u0026cid=0\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNH76bUCF4G-1Da2ehvCHYEFKlyrNg\"}],lead_story_doc_id:\"14990857343927940167\"},{nrel:102,idx:10,id:\"52778886594230\",lead_story_url:\"http://investcorrectly.com/20150623/google-inc-googls-gift-to-medical-researchers/\",a:[{t:\"Google
+        Inc (GOOGL)\\u0026#39;s Gift To Medical Researchers\",u:\"http://investcorrectly.com/20150623/google-inc-googls-gift-to-medical-researchers/\",s:\"InvestCorrectly\",sp:\"It
+        could well be termed as Google Inc (NASDAQ:GOOGL)\\u0026#39;s gift to the
+        researchers in the medical field. The company\\u0026#39;s life sciences division
+        has developed a health-tracking wristband purely for the benefit of the medical
+        fraternity.\",d:\"20 hours ago\",tt:\"1435074975\",usg:\"AFQjCNFmx93OdH4Oa63sEvQNU1JhR2fNDw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://investcorrectly.com/20150623/google-inc-googls-gift-to-medical-researchers/\\u0026cid=52778886594230\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGM0MM4jAy9bnHuyZritGxkZLa5ag\"},{t:\"Google
+        Inc Introduces New Health-Monitoring Wearable Band\",u:\"http://www.opptrends.com/2015/06/google-inc-introduces-new-health-monitoring-wearable-band/\",s:\"Opptrends\",sp:\"Google
+        Inc (NASDAQ:GOOG)\\u0026#39;s introduced a new health-tracking wearable band
+        that can send real-time data to doctors and health researchers while the patients
+        are away from the hospital or clinic.\",d:\"15 hours ago\",tt:\"1435095900\",usg:\"AFQjCNEByAzjU30lAMCfoJva4LpBXT7ooQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.opptrends.com/2015/06/google-inc-introduces-new-health-monitoring-wearable-band/\\u0026cid=52778886594230\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFoBIMmQqb2GMKDNTRhYErdFvbBxg\"},{t:\"Google
+        Developing Health-Tracking Wristband for Health Research\",u:\"http://www.bloomberg.com/news/articles/2015-06-23/google-developing-health-tracking-wristband-for-health-research\",s:\"Bloomberg\",sp:\"Google
+        Inc.\\u0026#39;s life sciences group has created a health-tracking wristband
+        that could be used in clinical trials and drug tests, giving researchers or
+        physicians minute-by-minute data on how patients are faring.\",d:\"23 hours
+        ago\",tt:\"1435066200\",usg:\"AFQjCNFFAJ1YfOLUwsHs1KRx58J4ifDi3w\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bloomberg.com/news/articles/2015-06-23/google-developing-health-tracking-wristband-for-health-research\\u0026cid=52778886594230\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGFdxUoevieSmo6AH5czGYSYZ2tng\"}],lead_story_doc_id:\"4133519019542122545\"},{nrel:102,idx:11,id:\"52778881929198\",lead_story_url:\"http://www.bidnessetc.com/45985-google-inc-facebook-inc-develop-neural-networks-to-create-psychedelic-pictu/\",a:[{t:\"Google
+        Inc, Facebook Inc Develop Neural Networks To Create Psychedelic ...\",u:\"http://www.bidnessetc.com/45985-google-inc-facebook-inc-develop-neural-networks-to-create-psychedelic-pictu/\",s:\"Bidness
+        ETC\",sp:\"Google Inc. (NASDAQ:GOOG) and Facebook Inc. (NASDAQ:FB) are working
+        to develop a system that would work similar to an artificial neural network.\",d:\"Jun
+        22, 2015\",tt:\"1434996675\",usg:\"AFQjCNHQHWvGezC8_J0uybLvsDohyAKOmQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/45985-google-inc-facebook-inc-develop-neural-networks-to-create-psychedelic-pictu/\\u0026cid=52778881929198\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHwK9MPLGSnyp4ZctLXuAdLKvl54Q\"},{t:\"Facebook
+        Inc (NASDAQ:FB) \\u0026amp; Google Inc (NASDAQ:GOOGL) in an Effort to ...\",u:\"http://www.benchmarkmonitor.com/facebook-inc-nasdaqfb-google-inc-nasdaqgoogl-in-an-effort-to-create-a-huge-neural-network/186300/\",s:\"Benchmark
+        Monitor\",sp:\"Google Inc (NASDAQ:GOOGL) and Facebook Inc (NASDAQ:FB) are
+        in an effort to create an enormous neural network. These artificial brains
+        can rapidly recognize faces,buildings,cars and other objects in digital photos.\",d:\"Jun
+        21, 2015\",tt:\"1434908250\",usg:\"AFQjCNEeuuSAgKH8XBS33gN9YUfltMDLSA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.benchmarkmonitor.com/facebook-inc-nasdaqfb-google-inc-nasdaqgoogl-in-an-effort-to-create-a-huge-neural-network/186300/\\u0026cid=52778881929198\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHc00l1s7KnDXedP3sBdPNUIfCZDw\"},{t:\"Google\\u0026#39;s
+        Artificial Intelligence Created Psychedelic Dreamscapes\",u:\"http://au.idigitaltimes.com/googles-artificial-intelligence-created-psychedelic-dreamscapes-101960\",s:\"iDigitalTimes.com\",sp:\"Google
+        Inc. software engineers and interns have published the photographs redeemed
+        after the team instructed the artificial intelligence to \\u0026quot;draw\\u0026quot;
+        an image of an object it was familiar with.\",d:\"Jun 22, 2015\",tt:\"1434958875\",usg:\"AFQjCNFG7acRCKu61bwJCXsp-ZlhRKSOmg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://au.idigitaltimes.com/googles-artificial-intelligence-created-psychedelic-dreamscapes-101960\\u0026cid=52778881929198\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGLQjdzAuEc59HIuSVDLNErTHigKg\"}],lead_story_doc_id:\"1152959262983767458\"},{nrel:16,idx:12,id:\"52778886161955\",lead_story_url:\"http://www.octafinance.com/lawrence-page-an-insider-in-google-inc-nasdaqgoog-unloaded-33332-shares-of-the-company/\",a:[{t:\"Lawrence
+        Page an Insider in Google Inc (NASDAQ:GOOG) Unloaded 33332 ...\",u:\"http://www.octafinance.com/lawrence-page-an-insider-in-google-inc-nasdaqgoog-unloaded-33332-shares-of-the-company/\",s:\"OctaFinance.com\",sp:\"The
+        Chief Executive Officer of Google Inc (NASDAQ:GOOG) 537.75 -0.44 -0.08% ,
+        Lawrence Page, has just sold - 33,332 shares of the corporation he\\u0026#39;s
+        leading - coming to a total trade of $18,189,795 US Dollars (this based on
+        avg share price of $545.7).\",d:\"Jun 22, 2015\",tt:\"1435010850\",usg:\"AFQjCNFqNHPgQ0T8SaNX6N0iFb6uvvreBg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.octafinance.com/lawrence-page-an-insider-in-google-inc-nasdaqgoog-unloaded-33332-shares-of-the-company/\\u0026cid=52778886161955\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEz3qoRt81VhMgPW59K52F7X9R0Qg\"},{t:\"Google
+        In Hot Water Across The Pond\",u:\"http://www.benzinga.com/news/15/06/5615863/google-in-hot-water-across-the-pond\",s:\"Benzinga\",sp:\"As
+        Google accounts for a large majority of online searches performed throughout
+        Europe, regulators worry that the company is using its size to bully competitors.
+        Specifically, EU regulators have been looking into the company\\u0026#39;s
+        shopping business after\\u0026nbsp;...\",d:\"Jun 23, 2015\",tt:\"1435058775\",usg:\"AFQjCNEP-RGfIhh31By_knhA2YacrBG-_A\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.benzinga.com/news/15/06/5615863/google-in-hot-water-across-the-pond\\u0026cid=52778886161955\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFX9TgQG6dPaJM6gNsQDZ2bso21kw\"},{t:\"Google
+        Inc. (GOOG) Files Form 4 Insider Selling : Sergey Brin Sells 33332 Shares\",u:\"http://www.insidertradingreport.org/google-inc-goog-files-form-4-insider-selling-sergey-brin-sells-33332-shares/618252/\",s:\"Insider
+        Trading Report\",sp:\"Google Inc. (GOOG): Sergey Brin , Co-Founder of Google
+        Inc. sold 33,332 shares on Jun 22, 2015. The Insider selling transaction was
+        disclosed on Jun 22, 2015 to the Securities and Exchange Commission.\",d:\"Jun
+        23, 2015\",tt:\"1435018372\",usg:\"AFQjCNEXDGuhHCOBMop7dPqlUjXBi-KNHA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.insidertradingreport.org/google-inc-goog-files-form-4-insider-selling-sergey-brin-sells-33332-shares/618252/\\u0026cid=52778886161955\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFoYOuzf5_698M_c2Uqe4BttZfGAQ\"}],lead_story_doc_id:\"7299751121643212599\"},{nrel:9170,idx:13,id:\"52778881671533\",lead_story_url:\"http://www.huffingtonpost.com/2015/06/23/google-confederate-flag_n_7649306.html\",a:[{t:\"Google
+        Is Pulling Confederate Flag From Google Shopping And Ads\",u:\"http://www.huffingtonpost.com/2015/06/23/google-confederate-flag_n_7649306.html\",s:\"Huffington
+        Post\",sp:\"SAN FRANCISCO, June 23 (Reuters) - Google Inc joined Amazon.com
+        Inc and eBay Inc on Tuesday in pulling Confederate flag merchandise from their
+        shopping site, following brick and mortar retailers in reacting to last week\\u0026#39;s
+        racially motivated mass\\u0026nbsp;...\",d:\"15 hours ago\",tt:\"1435096017\",usg:\"AFQjCNEnXmP1lZKEXQcYGCF5nejExsHXmA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.huffingtonpost.com/2015/06/23/google-confederate-flag_n_7649306.html\\u0026cid=52778881671533\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHTu4EJuWJE4pCulxICuaSo3yPWxw\"}],lead_story_doc_id:\"16160917202946086346\"},{nrel:85,idx:14,id:\"52778885535125\",lead_story_url:\"http://www.wsj.com/articles/getty-joins-eus-google-complaint-1435015449\",a:[{t:\"Getty
+        Joins EU\\u0026#39;s Google Complaint\",u:\"http://www.wsj.com/articles/getty-joins-eus-google-complaint-1435015449\",s:\"Wall
+        Street Journal\",sp:\"Getty Images Inc., the world\\u0026#39;s largest photo
+        agency, complained earlier this year to European antitrust officials that
+        Google Inc. GOOG 0.43 % unfairly favors its image-search service over rivals,
+        potentially adding another sector to the continent\\u0026#39;s ...\",d:\"Jun
+        22, 2015\",tt:\"1435015698\",usg:\"AFQjCNHkI83ozh5xPvWIEoncvXgdjDY8YQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.wsj.com/articles/getty-joins-eus-google-complaint-1435015449\\u0026cid=52778885535125\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFEaKdkkn6h4s0Tg9XP92JckPrBTQ\"},{t:\"Google
+        Inc (GOOG) In Trouble As Getty Images Participates In EU\\u0026#39;s Antitrust
+        Probe\",u:\"http://www.opptrends.com/2015/06/google-inc-goog-in-trouble-as-getty-images-participates-in-eus-antitrust-probe/\",s:\"Opptrends\",sp:\"Two
+        months ago, European Union began investigating business practices of the internet
+        giant Google Inc (NASDAQ:GOOG). The investigation lead to an antitrust probe
+        that believed the search engine favored its own websites and ranked them higher
+        in\\u0026nbsp;...\",d:\"22 hours ago\",tt:\"1435069400\",usg:\"AFQjCNFPw9hdy4m7FSzva8hMa6Ys68vE0Q\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.opptrends.com/2015/06/google-inc-goog-in-trouble-as-getty-images-participates-in-eus-antitrust-probe/\\u0026cid=52778885535125\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEeMdyjnN5ro3xSakW6WKh37EgSsw\"}],lead_story_doc_id:\"2393519148860697623\"},{nrel:3,idx:15,id:\"52778886951380\",lead_story_url:\"http://www.vanguardtribune.com/2015/06/23/notable-session-mover-google-inc-nasdaqgoogl-5/19257/\",a:[{t:\"Notable
+        Session Mover: Google Inc. (NASDAQ:GOOGL)\",u:\"http://www.vanguardtribune.com/2015/06/23/notable-session-mover-google-inc-nasdaqgoogl-5/19257/\",s:\"Vanguard
+        Tribune\",sp:\"A notable mover in today\\u0026#39;s trading session is Google
+        Inc. (NASDAQ:GOOGL) as the stock opened the most recent session at 559.790
+        and at the time of writing the last Bid was at 564.195.\",d:\"17 hours ago\",tt:\"1435087125\",usg:\"AFQjCNE1tlfmOh9E6CGgB9KCe9Yug_Bz7A\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.vanguardtribune.com/2015/06/23/notable-session-mover-google-inc-nasdaqgoogl-5/19257/\\u0026cid=52778886951380\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEw5RyvxNp9TUP38LCuHDqnMhCUzA\"}],lead_story_doc_id:\"11069976557912087329\"},{nrel:105,idx:16,id:\"52778884846869\",lead_story_url:\"http://investcorrectly.com/20150623/facebook-inc-fbs-2-trillion-video-views-google-incs-youtubes-3-trillion-end-2015/\",a:[{t:\"Facebook
+        Inc (FB)\\u0026#39;s 2 Trillion Video Views To Google Inc\\u0026#39;s YouTube\\u0026#39;s
+        3 ...\",u:\"http://investcorrectly.com/20150623/facebook-inc-fbs-2-trillion-video-views-google-incs-youtubes-3-trillion-end-2015/\",s:\"InvestCorrectly\",sp:\"Facebook
+        Inc (NASDAQ:FB) is taking on Google Inc (NASDAQ:GOOG)(NASDAQ:GOOGL)\\u0026#39;s
+        YouTube in a major way in the video sharing market.\",d:\"22 hours ago\",tt:\"1435069575\",usg:\"AFQjCNHaqxMiA8RX89bCkL5Vdo24FEVefg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://investcorrectly.com/20150623/facebook-inc-fbs-2-trillion-video-views-google-incs-youtubes-3-trillion-end-2015/\\u0026cid=52778884846869\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHsV6t1heBndF720W8Db3jgf_1i9g\"},{t:\"Is
+        Facebook Inc. (NASDAQ:FB) about to Gain Traction?\",u:\"https://www.wallstreet.org/2015/06/is-facebook-inc-nasdaqfb-about-to-gain-traction/1413722.html\",s:\"WallStreet.org\",sp:\"Reuters
+        just reported that our favorite social media site, Facebook Inc. (NASDAQ:FB)
+        has been gaining some momentum but still has a lot of catching up to do with
+        Google Inc.\\u0026#39;s (NASDAQ:GOOGL) video advertisements on YouTube. Recent
+        reports state that\\u0026nbsp;...\",d:\"22 hours ago\",tt:\"1435069575\",usg:\"AFQjCNHQfIn-CGAlOxLYbNche3BV9XzpPA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=https://www.wallstreet.org/2015/06/is-facebook-inc-nasdaqfb-about-to-gain-traction/1413722.html\\u0026cid=52778884846869\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHI67eSRl15VrCvgSE3qeDkZGXELQ\"},{t:\"Facebook
+        Inc (NASDAQ:FB) Closing In On YouTube In Video Ads Race\",u:\"http://learnbonds.com/facebook-inc-nasdaq-fb-closing-in-on-youtube-in-video-ads-race/119527/\",s:\"LearnBonds\",sp:\"Facebook
+        Inc. (NASDAQ:FB) is increasingly being used by brands for advertisement rather
+        than Google\\u0026#39;s YouTube. Facebook is gaining sharply in the fastest
+        growing class of internet ads (online videos), which is still ruled by Google
+        Inc (GOOG)\\u0026#39;s YouTube ...\",d:\"Jun 22, 2015\",tt:\"1434990137\",usg:\"AFQjCNHj6iX7w0u0EJVC6a0QMVfGAaFeMw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://learnbonds.com/facebook-inc-nasdaq-fb-closing-in-on-youtube-in-video-ads-race/119527/\\u0026cid=52778884846869\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFgbwh78NUMUdQkZ1jdEzq3n2PwKA\"}],lead_story_doc_id:\"4326233791830185504\"},{nrel:4,idx:17,id:\"52778883468796\",lead_story_url:\"http://www.benzinga.com/analyst-ratings/analyst-color/15/06/5609771/could-twitter-be-worth-100-billion-to-google-analysts-we\",a:[{t:\"Could
+        Twitter Be Worth $100 Billion To Google? Analysts Weigh In\",u:\"http://www.benzinga.com/analyst-ratings/analyst-color/15/06/5609771/could-twitter-be-worth-100-billion-to-google-analysts-we\",s:\"Benzinga\",sp:\"Twitter
+        Inc (NYSE: TWTR) is still rumored to be up for sale, and Google Inc (NASDAQ:
+        GOOG) (NASDAQ: GOOGL) is still rumored to be the company most interested in
+        a merger.\",d:\"Jun 19, 2015\",tt:\"1434738825\",usg:\"AFQjCNGtPOROz31nGasYywJjK3aXkq8fJA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.benzinga.com/analyst-ratings/analyst-color/15/06/5609771/could-twitter-be-worth-100-billion-to-google-analysts-we\\u0026cid=52778883468796\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFKP8ca9MwtzvX5iyCHsMvvxoXS3w\"}],lead_story_doc_id:\"12858325786328918881\"},{nrel:179,idx:18,id:\"52778885093507\",lead_story_url:\"http://investcorrectly.com/20150623/apple-inc-aapl-and-google-inc-googl-to-account-for-more-than-50-of-total-app-downloads/\",a:[{t:\"Apple
+        Inc. (AAPL) And Google Inc (GOOGL) To Account For More Than 50% Of ...\",u:\"http://investcorrectly.com/20150623/apple-inc-aapl-and-google-inc-googl-to-account-for-more-than-50-of-total-app-downloads/\",s:\"InvestCorrectly\",sp:\"It
+        is not a surprise that Apple Inc. (NASDAQ:AAPL) and Google Inc (NASDAQ:GOOGL)
+        remained as the top app stores for downloading over 50% of the total apps.\",d:\"Jun
+        23, 2015\",tt:\"1435055400\",usg:\"AFQjCNGsOc9j_yXUdtUhGotB0aDQ_QuNYg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://investcorrectly.com/20150623/apple-inc-aapl-and-google-inc-googl-to-account-for-more-than-50-of-total-app-downloads/\\u0026cid=52778885093507\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNE-NYY8-uFBm5d7L-dQ6YgLjiHIoA\"},{t:\"The
+        top iPhone and iPad apps on App Store\",u:\"http://www.timesunion.com/news/article/The-top-iPhone-and-iPad-apps-on-App-Store-6344707.php\",s:\"Albany
+        Times Union\",sp:\"6. Snapchat, Snapchat, Inc. 7. Pandora Radio, Pandora Media,
+        Inc. 8. Netflix, Netflix, Inc. 9. Google Maps, Google, Inc. 10. Layout from
+        Instagram, Instagram, Inc. Top Paid iPad Apps: 1. Minecraft: Pocket Edition.
+        Mojang. 2. Terraria, 505 Games (US ...\",d:\"16 hours ago\",tt:\"1435089825\",usg:\"AFQjCNGpetcDZU8LvQUQfIapKPy4QawrDw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.timesunion.com/news/article/The-top-iPhone-and-iPad-apps-on-App-Store-6344707.php\\u0026cid=52778885093507\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEbp-HaifNTDseOpmwyWDBZ-NC3Lw\"}],lead_story_doc_id:\"12719088379551343029\"},{nrel:59,idx:19,id:\"52778882470159\",lead_story_url:\"http://www.benchmarkmonitor.com/after-11-accidents-google-inc-nasdaqgoogl-self-driving-cars-still-continue-with-test-drives/186311/\",a:[{t:\"After
+        11 Accidents, Google Inc (NASDAQ:GOOGL) Self-Driving Cars Still ...\",u:\"http://www.benchmarkmonitor.com/after-11-accidents-google-inc-nasdaqgoogl-self-driving-cars-still-continue-with-test-drives/186311/\",s:\"Benchmark
+        Monitor\",sp:\"Ever since Google Inc (NASDAQ:GOOGL) revealed its autonomous
+        self-driving car, the firm has been studying on the kinks of the self-driving
+        cars.\",d:\"Jun 22, 2015\",tt:\"1434962250\",usg:\"AFQjCNGoNoMwKNIiH_fxcFD_sdNEiqRuhg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.benchmarkmonitor.com/after-11-accidents-google-inc-nasdaqgoogl-self-driving-cars-still-continue-with-test-drives/186311/\\u0026cid=52778882470159\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFj-31PlZrzifFkljKtz-lT0AUE6Q\"},{t:\"DMV
+        releases data on Google\\u0026#39;s self-driving car accidents\",u:\"http://www.bizjournals.com/sanjose/news/2015/06/19/dmv-releases-data-on-googles-self-driving-car.html\",s:\"Silicon
+        Valley Business Journal\",sp:\"Official reports from the minor accidents involving
+        Google Inc.\\u0026#39;s self-driving cars over the last six years have been
+        released after pressure from the Associated Press, but the reports don\\u0026#39;t
+        reveal much more than what\\u0026#39;s already been reported.\",d:\"Jun 19,
+        2015\",tt:\"1434745575\",usg:\"AFQjCNHudX8lcbVXDselfARVdDNc2ULEeg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bizjournals.com/sanjose/news/2015/06/19/dmv-releases-data-on-googles-self-driving-car.html\\u0026cid=52778882470159\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHW03JwRRnzxAxmMNM42I3XfezJCA\"}],lead_story_doc_id:\"480587790274062355\"},{nrel:33,idx:20,id:\"52778886760267\",lead_story_url:\"http://www.benchmarkmonitor.com/google-inc-nasdaqgoogls-sidewalk-labs-aims-to-provide-anvast-wi-fi-facility-for-free/186367/\",a:[{t:\"Google
+        Inc (NASDAQ:GOOGL)\\u0026#39;s Sidewalk Labs Aims to Provide Anvast Wi-Fi
+        ...\",u:\"http://www.benchmarkmonitor.com/google-inc-nasdaqgoogls-sidewalk-labs-aims-to-provide-anvast-wi-fi-facility-for-free/186367/\",s:\"Benchmark
+        Monitor\",sp:\"Google Inc (NASDAQ:GOOGL) announced the creation of Sidewalk
+        Labs previously in June. It is reported that It would be an independent Google-owned
+        company that would emphasis on refining city living through technology innovations.\",d:\"1
+        hour ago\",tt:\"1435146525\",usg:\"AFQjCNFfDeSa6xYzwWq5OBEtBpjt6jGTfA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.benchmarkmonitor.com/google-inc-nasdaqgoogls-sidewalk-labs-aims-to-provide-anvast-wi-fi-facility-for-free/186367/\\u0026cid=52778886760267\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEXq4PSYc4-mS5Gsf71gcmFZeYE1g\"},{t:\"Google
+        Inc (NASDAQ:GOOGL)\\u0026#39;s Sidewalk Labs Is Ready To Provide Super-Fast
+        ...\",u:\"http://www.financialstrend.com/google-inc-nasdaqgoogls-sidewalk-labs-is-ready-to-provide-super-fast-wi-fi-21413.html\",s:\"FinancialsTrend\",sp:\"Dallas,
+        Texas 06/24/2015 (Financialstrend) - Early in this month Google Inc (NASDAQ:GOOGL),
+        the giant search engine made an announcement that it will be incorporating
+        \\u0026#39;Sidewalk Labs\\u0026#39; as an independent , Google-owned company
+        in order to improve the\\u0026nbsp;...\",d:\"1 hour ago\",tt:\"1435145850\",usg:\"AFQjCNE3jD-laiT4TmijIsZYjHvBl8KocA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.financialstrend.com/google-inc-nasdaqgoogls-sidewalk-labs-is-ready-to-provide-super-fast-wi-fi-21413.html\\u0026cid=52778886760267\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNETJg29y_H-zxbkIMy1JzeqR1Q2hw\"},{t:\"Google
+        Sidewalk Labs to Bring Free Wi-Fi to NYC\",u:\"http://www.i4u.com/2015/06/92600/google-sidewalk-labs-bring-free-wi-fi-nyc\",s:\"I4U
+        News\",sp:\"Earlier in June, Google Inc. announced it will be creating an
+        independent Google owned company byt the name of Sidewalk Labs.\",d:\"5 hours
+        ago\",tt:\"1435131393\",usg:\"AFQjCNE4m7poGY5WvasZW58f7deM5HI1eQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.i4u.com/2015/06/92600/google-sidewalk-labs-bring-free-wi-fi-nyc\\u0026cid=52778886760267\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHeDMECuYdDC-FtS6vw3Zuvnjazbw\"}],lead_story_doc_id:\"7957211763254069143\"},{nrel:87,idx:21,id:\"52778884611026\",lead_story_url:\"http://www.bidnessetc.com/45914-google-play-store-has-new-google-clock-app/\",a:[{t:\"Google
+        Play Store Has New Google Clock App!\",u:\"http://www.bidnessetc.com/45914-google-play-store-has-new-google-clock-app/\",s:\"Bidness
+        ETC\",sp:\"Google Inc. (NADAQ:GOOG) released a new clock application in its
+        Play Store, giving users an option to download it if they are not satisfied
+        with the default clock application in their device.\",d:\"Jun 22, 2015\",tt:\"1434971025\",usg:\"AFQjCNFc5ok0xnDC2X5FRaR_bqxHa8bdvw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.bidnessetc.com/45914-google-play-store-has-new-google-clock-app/\\u0026cid=52778884611026\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNFojvEuGP_9EPN82D-Bl396Y8A6vg\"},{t:\"Google
+        Inc Scooped Up The App-Streaming Startup \\u0026quot;Agawi\\u0026quot; previous
+        year: The\",u:\"http://sentinelrepublic.com/google-inc-scooped-up-the-app-streaming-startup-agawi-previous-year-the/5467/\",s:\"Sentinel
+        Republic\",sp:\"Now on Tap is a huge benefit that Google Now fans are going
+        to love. You can see the failed don\\u0026#39;t disturb options that weren\\u0026#39;t
+        popular on the left, and the new simplified system in Android M. You are either
+        an Android user or a fan of iOS and chances ...\",d:\"Jun 20, 2015\",tt:\"1434831052\",usg:\"AFQjCNEwImj-TJcu8_9I199cdRAKu4GPhQ\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://sentinelrepublic.com/google-inc-scooped-up-the-app-streaming-startup-agawi-previous-year-the/5467/\\u0026cid=52778884611026\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNGLZiWd8Y8qNm-Y3nWsp4qFCdlwww\"},{t:\"Has
+        Google Secretly Acquired App Streaming Startup, Agawi?\",u:\"http://www.zacks.com/stock/news/179017/has-google-secretly-acquired-app-streaming-startup-agawi\",s:\"Zacks.com\",sp:\"Google
+        Inc.(GOOGL - Analyst Report) wants to make life easier for people in every
+        way possible, technologically. Now it is probably working to make accessing
+        apps easier on smartphones without having to download them first.\",d:\"Jun
+        19, 2015\",tt:\"1434742591\",usg:\"AFQjCNEvI9vb2IP5vE4lYsfWRPj3zrEVPg\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.zacks.com/stock/news/179017/has-google-secretly-acquired-app-streaming-startup-agawi\\u0026cid=52778884611026\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNF8vwgG3RYprorZJdg-DblTRwRqRQ\"}],lead_story_doc_id:\"7538527148160017316\"},{idx:22,id:\"0\",lead_story_url:\"http://seekingalpha.com/article/3275005-why-google-shouldnt-buy-twitter\",a:[{t:\"Why
+        Google Shouldn\\u0026#39;t Buy Twitter\",u:\"http://seekingalpha.com/article/3275005-why-google-shouldnt-buy-twitter\",s:\"Seeking
+        Alpha\",sp:\"First, Google\\u0026#39;s margins would obviously take a hit.
+        The company had a positive GAAP net margin of more than 20% in Q1, while Twitter
+        reported a GAAP loss of $162 million.\",d:\"Jun 22, 2015\",tt:\"1434994820\",usg:\"AFQjCNHkICMSJeam0P4kzHROJkJ2h4OC-Q\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://seekingalpha.com/article/3275005-why-google-shouldnt-buy-twitter\\u0026cid=0\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEAB0zHVej0uTZg7j1e9LyNc2s3XA\"}],lead_story_doc_id:\"13523806058160226370\"},{nrel:2,idx:23,id:\"52778885864191\",lead_story_url:\"http://investcorrectly.com/20150622/google-inc-googl-ventures-europe-wakes-deep-slumber/\",a:[{t:\"Google
+        Inc. (GOOGL) Ventures Europe Wakes Up From A Deep Slumber\",u:\"http://investcorrectly.com/20150622/google-inc-googl-ventures-europe-wakes-deep-slumber/\",s:\"InvestCorrectly\",sp:\"Google
+        Inc. (NASDAQ:GOOGL)\\u0026#39;s European venture arm has just woken up from
+        a deep slumber to make its second investment in the region.\",d:\"Jun 22,
+        2015\",tt:\"1434977672\",usg:\"AFQjCNFlJas3PnLUDe55QfbtStysbt-1Pw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://investcorrectly.com/20150622/google-inc-googl-ventures-europe-wakes-deep-slumber/\\u0026cid=52778885864191\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNE4miWOFFBG-TNdwIMhlYAb27fgsw\"}],lead_story_doc_id:\"9696341338358436815\"},{nrel:3,idx:24,id:\"52778886598350\",lead_story_url:\"http://www.stocktranscript.com/investors-alert-gilead-sciences-inc-nasdaqgild-google-inc-nasdaqgoog-sunedison-inc-nysesune-vantiv-inc-nysevntv-cytokinetics-incorporated-nasdaqcytk/28321/\",a:[{t:\"Investors
+        Alert: Gilead Sciences Inc. (NASDAQ:GILD), Google Inc (NASDAQ ...\",u:\"http://www.stocktranscript.com/investors-alert-gilead-sciences-inc-nasdaqgild-google-inc-nasdaqgoog-sunedison-inc-nysesune-vantiv-inc-nysevntv-cytokinetics-incorporated-nasdaqcytk/28321/\",s:\"Stock
+        Transcript\",sp:\"Gilead Sciences Inc. (NASDAQ:GILD) belongs to Healthcare
+        sector. Its net profit margin is 51.70% and weekly performance is 2.82%.\",d:\"23
+        hours ago\",tt:\"1435066200\",usg:\"AFQjCNHbAYeDwK32y2csnZp9qcsZNKHV1w\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.stocktranscript.com/investors-alert-gilead-sciences-inc-nasdaqgild-google-inc-nasdaqgoog-sunedison-inc-nysesune-vantiv-inc-nysevntv-cytokinetics-incorporated-nasdaqcytk/28321/\\u0026cid=52778886598350\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNEdWVz2QmLoz_OdR-I2xRuWEYxUPQ\"},{t:\"Market
+        Alert: Cytokinetics, Incorporated (NASDAQ:CYTK), Vantiv (NYSE:VNTV ...\",u:\"http://www.propertymentorgroup.com/market-alert-cytokinetics-incorporated-nasdaqcytk-vantiv-inc-nysevntv-sunedison-inc-nysesune-google-inc-nasdaqgoog-gilead-sciences-inc-nasdaqgild/1291918/\",s:\"Property
+        Mentor\",sp:\"Google Inc (NASDAQ:GOOG) caters to the Technology space. Its
+        weekly performance is 2.08%. On the last day of trading company shares ended
+        up $538.19.\",d:\"21 hours ago\",tt:\"1435072950\",usg:\"AFQjCNFhcuIAGGMv5W9eMG4NeKDIxzQaWA\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://www.propertymentorgroup.com/market-alert-cytokinetics-incorporated-nasdaqcytk-vantiv-inc-nysevntv-sunedison-inc-nysesune-google-inc-nasdaqgoog-gilead-sciences-inc-nasdaqgild/1291918/\\u0026cid=52778886598350\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNE928PwQuxycbSklTMl3JrYXRZypA\"}],lead_story_doc_id:\"17468903404969627272\"},{nrel:52,idx:25,id:\"52778885981039\",lead_story_url:\"http://recode.net/2015/06/22/u-s-supreme-court-rejects-google-patent-appeal-over-street-view/\",a:[{t:\"U.S.
+        Supreme Court Rejects Google Patent Appeal Over Street View\",u:\"http://recode.net/2015/06/22/u-s-supreme-court-rejects-google-patent-appeal-over-street-view/\",s:\"Re/code\",sp:\"Google
+        will have to defend claims that its Street View mapping software violates
+        patents held by Vederi LLC after the U.S. Supreme Court on Monday declined
+        to take up the company\\u0026#39;s appeal. The high court\\u0026#39;s decision
+        not to hear the case leaves intact a\\u0026nbsp;...\",d:\"Jun 22, 2015\",tt:\"1434980475\",usg:\"AFQjCNFLR3CyPAxUlW6bbO8St8PjSucbIw\",sru:\"http://news.google.com/news/url?sa=T\\u0026ct2=us\\u0026fd=S\\u0026url=http://recode.net/2015/06/22/u-s-supreme-court-rejects-google-patent-appeal-over-street-view/\\u0026cid=52778885981039\\u0026ei=ZqeKVZmhHMONUPG5orgM\\u0026usg=AFQjCNHzN34S_8U-7AmJKZy1n8ZecxEGog\"}],lead_story_doc_id:\"15290264613018986890\"},{idx:26,id:\"-1\"}],results_per_page:10,result_start_num:1,result_end_num:0,result_total_articles:92},related:{cols:[0,1,4,30,34,31,32,5,2,33,3],rows:[{id:\"304466804484872\",values:[\"GOOG\",\"Google
+        Inc\",\"540.48\",\"0.00\",\"chb\",\"0.00\",\"\",\"377.14B\",\"NASDAQ\",\"304466804484872\",\"GOOG\"]},{id:\"700029\",values:[\"BIDU\",\"Baidu
+        Inc (ADR)\",\"211.98\",\"0.00\",\"chb\",\"0.00\",\"\",\"74.45B\",\"NASDAQ\",\"700029\",\"BIDU\"]},{id:\"10670257\",values:[\"YNDX\",\"Yandex
+        NV\",\"15.93\",\"0.00\",\"chb\",\"0.00\",\"\",\"5.15B\",\"NASDAQ\",\"10670257\",\"YNDX\"]},{id:\"662862\",values:[\"BCOR\",\"Blucora
+        Inc\",\"16.29\",\"0.00\",\"chb\",\"0.00\",\"\",\"666.43M\",\"NASDAQ\",\"662862\",\"BCOR\"]},{id:\"658890\",values:[\"YHOO\",\"Yahoo!
+        Inc.\",\"40.65\",\"0.00\",\"chb\",\"0.00\",\"\",\"38.15B\",\"NASDAQ\",\"658890\",\"YHOO\"]},{id:\"358464\",values:[\"MSFT\",\"Microsoft
+        Corporation\",\"45.91\",\"0.00\",\"chb\",\"0.00\",\"\",\"371.39B\",\"NASDAQ\",\"358464\",\"MSFT\"]},{id:\"659872\",values:[\"IACI\",\"IAC/InterActiveCorp\",\"78.67\",\"0.00\",\"chb\",\"0.00\",\"\",\"6.46B\",\"NASDAQ\",\"659872\",\"IACI\"]},{id:\"18241\",values:[\"IBM\",\"Intl.
+        Business Machines Corp.\",\"168.65\",\"+0.03\",\"chg\",\"0.02\",\"\",\"166.05B\",\"NYSE\",\"18241\",\"IBM\"]},{id:\"296878244325128\",values:[\"FB\",\"Facebook
+        Inc\",\"87.88\",\"0.00\",\"chb\",\"0.00\",\"\",\"246.79B\",\"NASDAQ\",\"296878244325128\",\"FB\"]},{id:\"22144\",values:[\"AAPL\",\"Apple
+        Inc.\",\"127.03\",\"0.00\",\"chb\",\"0.00\",\"\",\"731.82B\",\"NASDAQ\",\"22144\",\"AAPL\"]},{id:\"32086821185414\",values:[\"TWTR\",\"Twitter
+        Inc\",\"35.36\",\"-0.01\",\"chr\",\"-0.03\",\"\",\"23.16B\",\"NYSE\",\"32086821185414\",\"TWTR\"]}],visible_cols:[0,1,4,30,34,31,32,5]},related_str:\"304466804484872,700029,10670257,662862,658890,358464,659872,18241,296878244325128,22144,32086821185414\",perf:[{u:\"/finance?q=INDEXDJX:.DJI\",name:\"Dow
+        Jones\",cp:\"0.00\",p:\"18,144.07\",cid:\"983582\"},{u:\"/finance?q=INDEXNASDAQ:.IXIC\",name:\"Nasdaq\",cp:\"0.00\",p:\"5,160.10\",cid:\"13756934\"},{u:\"/finance?catid=us-TRBC:57\",name:\"Technology\",cp:\"-0.03\",cid:\"0\"},{u:\"/finance?q=NASDAQ:GOOG\",name:\"GOOG\",cp:\"0.00\",p:\"540.48\",cid:\"304466804484872\"}],t:\"NASDAQ:GOOG:
+        {LAST} {CHANGE} ({CHANGE_PCT}%) - Google Inc\",ticker:\"NASDAQ:GOOG\",cid:\"304466804484872\"},stickyUrlArgs:\"\\u0026ei=fqeKVeDlJ8ScUt2TgcAE\",chart:{_5d:\"EXCHANGE%3DNASDAQ\\nMARKET_OPEN_MINUTE=570\\nMARKET_CLOSE_MINUTE=960\\nINTERVAL=120\\nCOLUMNS=DATE,CLOSE,VOLUME\\nDATA=\\nTIMEZONE_OFFSET=-240\\na1434547800,529.37,8759\\n1,529.4001,3500\\n2,529.48,4967\\n3,529.96,4959\\n4,529.3955,6683\\n5,529.2688,2348\\n6,528.92,4231\\n7,529.32,2140\\n8,530.26,5360\\n9,529.6737,2134\\n10,529.745,1700\\n11,529.52,1700\\n12,529.78,3680\\n13,528.94,1100\\n14,528.79,8784\\n15,528.79,3143\\n16,529.13,800\\n17,528.95,700\\n18,528.28,4473\\n19,528.0939,1300\\n20,527.9,5350\\n21,528.325,2855\\n22,528.54,2100\\n23,528.36,5486\\n24,528.475,2000\\n25,528.25,2819\\n26,528.08,3700\\n27,528.14,3100\\n28,527.6099,4700\\n29,527.78,14724\\n30,527.9894,750\\n31,528.21,1400\\n32,527.83,1200\\n33,528.245,900\\n34,527.82,2400\\n35,527.95,1800\\n36,528.0875,1900\\n37,527.7901,1311\\n38,527.93,1868\\n39,527.54,650\\n40,527.38,2600\\n41,527.32,500\\n42,527.69,8062\\n43,527.66,1922\\n44,527.7,900\\n45,527.99,3450\\n46,528.14,1200\\n47,527.91,300\\n48,527.68,900\\n49,527.88,300\\n50,527.94,1500\\n51,527.81,1000\\n52,527.74,1240\\n53,527.95,1000\\n54,528.01,300\\n55,528.02,400\\n56,527.87,2514\\n57,527.8,4460\\n58,527.557,3800\\n59,527.4299,6279\\n60,527.07,7571\\n61,527.235,5497\\n62,527.13,1000\\n63,527.03,2150\\n64,527.3,5566\\n65,527.1199,1245\\n66,526.7681,1727\\n67,526.97,3555\\n68,526.52,2804\\n69,526.49,3530\\n70,526.87,1300\\n71,526.78,225\\n72,527.043,1950\\n73,527.13,602\\n74,527.16,700\\n75,527.21,1794\\n76,527.0196,1650\\n77,527.08,800\\n78,526.95,2100\\n79,526.1,1925\\n80,526.7,1100\\n81,526.6731,600\\n82,526.68,200\\n83,526.46,2400\\n84,526.12,3801\\n85,526.25,1500\\n86,526.45,2340\\n87,526.76,2925\\n88,526.69,650\\n89,526.5992,3834\\n90,526.77,1673\\n91,526.87,400\\n92,526.8618,1400\\n93,526.94,900\\n94,527.0075,1600\\n95,526.7,3083\\n96,526.49,700\\n97,526.47,2610\\n98,525.93,6114\\n99,525.83,4046\\n100,525.5,3800\\n101,525.31,4590\\n102,525.23,6876\\n103,525.4,3500\\n104,525.39,4760\\n105,525.53,950\\n106,525.57,900\\n107,525.77,1100\\n108,525.73,11535\\n109,525.59,1700\\n110,525.6,1800\\n111,525.9,6804\\n112,525.54,1200\\n113,526.05,2700\\n114,525.93,754\\n115,525.94,900\\n116,526.11,1900\\n117,526.22,100\\n118,526.09,2200\\n119,525.92,2380\\n120,525.8,4000\\n121,526.01,900\\n122,526.284,835\\n123,526.48,1400\\n124,526.25,1500\\n125,526.4584,517\\n126,526.53,900\\n127,526.6,8567\\n128,526.56,4798\\n129,526.48,1300\\n130,526.38,2284\\n131,526.6,750\\n132,526.82,1535\\n133,526.75,3182\\n134,526.71,1900\\n135,526.38,7433\\n136,527.47,9191\\n137,527.76,7914\\n138,527.84,5137\\n139,528.44,3829\\n140,528.21,6974\\n141,528.14,2400\\n142,528,1000\\n143,527.94,2400\\n144,528.06,2000\\n145,527.58,1996\\n146,526.38,5300\\n147,526.78,1800\\n148,527,1400\\n149,527.41,700\\n150,527.46,1500\\n151,528,2000\\n152,527.91,15140\\n153,528.4,9700\\n154,528.51,6722\\n155,529,5592\\n156,529.04,5395\\n157,529.62,10881\\n158,529.94,3975\\n159,530.2,11540\\n160,530.2899,5674\\n161,530,15141\\n162,530.4,4230\\n163,530.26,7032\\n164,529.97,2100\\n165,529.995,3300\\n166,530.17,6222\\n167,529.62,2645\\n168,529.63,800\\n169,529.65,3900\\n170,529.42,1900\\n171,529.9,1300\\n172,529.73,2150\\n173,530.15,2667\\n174,530.73,2665\\n175,530.385,4663\\n176,530.51,2000\\n177,530.83,3630\\n178,530.78,5671\\n179,530.62,2166\\n180,530.16,9038\\n181,530.12,11474\\n182,530,2050\\n183,530.3,1800\\n184,530.11,2100\\n185,529.95,4942\\n186,529.75,6907\\n187,529.75,10801\\n188,529.56,3452\\n189,529.5,3119\\n190,529.73,8786\\n191,530.1,4416\\n192,529.89,3425\\n193,529.79,5966\\n194,529.88,10997\\n195,529.26,331518\\n720,531.35,12089\\n721,532.05,14816\\n722,532.5,4183\\n723,533.795,20353\\n724,533.32,8784\\n725,533.38,5700\\n726,532.72,8270\\n727,532.95,15462\\n728,533.36,10100\\n729,533.915,10920\\n730,533.61,6060\\n731,534.025,7328\\n732,534.13,18576\\n733,534.24,6909\\n734,534.25,9852\\n735,534.2505,6733\\n736,534.13,7851\\n737,534.13,4054\\n738,534.77,9303\\n739,535.63,9484\\n740,535.22,5992\\n741,535.4,6114\\n742,535.46,5390\\n743,536.15,17118\\n744,535.79,5211\\n745,535.89,3799\\n746,536.38,7182\\n747,536.59,5973\\n748,537.22,10253\\n749,536.95,7553\\n750,536.467,4423\\n751,536.51,6200\\n752,536.5,5861\\n753,536.75,7821\\n754,536.64,5905\\n755,536.63,10918\\n756,536.552,3732\\n757,537.102,10141\\n758,537.16,10611\\n759,536.72,3375\\n760,536.73,13470\\n761,536.97,6402\\n762,537.31,7651\\n763,537.55,19504\\n764,537.91,9200\\n765,537.59,4782\\n766,537.27,8750\\n767,537.75,12152\\n768,537.97,6885\\n769,537.68,4272\\n770,537.75,4971\\n771,537.84,3262\\n772,537.2871,3700\\n773,537.33,5440\\n774,537.41,3887\\n775,537.17,7382\\n776,536.76,6200\\n777,536.61,5215\\n778,537.02,4852\\n779,537,3120\\n780,537.08,2300\\n781,537.48,4311\\n782,537.73,14302\\n783,537.6624,5057\\n784,537.56,5036\\n785,537.65,2300\\n786,537.795,3976\\n787,537.91,8067\\n788,537.68,4262\\n789,537.65,3486\\n790,537.48,2500\\n791,537.81,1913\\n792,537.63,2850\\n793,537.62,3800\\n794,537.6052,1400\\n795,537.85,3038\\n796,537.76,3080\\n797,537.72,1285\\n798,537.615,1749\\n799,537.54,4459\\n800,537.715,3800\\n801,537.61,2442\\n802,537.745,4120\\n803,537.56,2230\\n804,537.33,3130\\n805,537.45,2113\\n806,537.88,2501\\n807,538.08,8733\\n808,537.9,3938\\n809,537.59,5100\\n810,537.71,7800\\n811,537.75,1953\\n812,537.82,4476\\n813,537.6566,3595\\n814,537.75,17900\\n815,537.5,12282\\n816,537.45,4550\\n817,537.455,2537\\n818,537.9899,5065\\n819,537.96,3983\\n820,537.55,3800\\n821,537.48,2800\\n822,537.48,2500\\n823,537.25,1738\\n824,537.495,2511\\n825,537.73,2600\\n826,537.824,4050\\n827,537.68,1300\\n828,537.85,500\\n829,537.8312,14689\\n830,537.505,2060\\n831,537.64,3623\\n832,537.92,4281\\n833,537.275,4728\\n834,537.405,1700\\n835,536.94,6833\\n836,536.81,2300\\n837,536.73,5227\\n838,536.705,2275\\n839,536.66,2600\\n840,536.94,4955\\n841,536.81,2200\\n842,536.7299,10273\\n843,536.38,6939\\n844,536.605,3250\\n845,536.31,3671\\n846,536.5,1303\\n847,536.28,2115\\n848,536.445,3064\\n849,536.31,1950\\n850,536.29,5000\\n851,536.15,400\\n852,535.95,4451\\n853,535.9695,1927\\n854,536.3,10388\\n855,536.331,3152\\n856,536.2,1627\\n857,536.2822,4058\\n858,536.42,4031\\n859,536.36,1100\\n860,536.46,1100\\n861,536.59,3400\\n862,536.24,2000\\n863,536.15,2000\\n864,536.36,2840\\n865,536.08,6365\\n866,536.27,2150\\n867,536.19,2700\\n868,535.89,2546\\n869,535.94,494\\n870,535.91,2100\\n871,536.2446,7365\\n872,536.1189,9203\\n873,536.11,2185\\n874,536.21,2600\\n875,536.25,5437\\n876,536.4699,1606\\n877,536.42,3668\\n878,536.48,1000\\n879,536.47,8053\\n880,536.71,10120\\n881,537.07,5450\\n882,537.27,10412\\n883,537.36,3263\\n884,537.36,2344\\n885,537.46,4003\\n886,537.32,4195\\n887,537.35,6988\\n888,537.45,3991\\n889,537.33,4900\\n890,537.25,5430\\n891,537.28,8748\\n892,537.25,14164\\n893,537.3,2338\\n894,537.63,10935\\n895,537.75,2987\\n896,537.52,3727\\n897,537.43,5978\\n898,537.41,7276\\n899,537.6,5324\\n900,537.51,8934\\n901,537.7,3300\\n902,537.68,10758\\n903,537.5633,7594\\n904,537.1,9687\\n905,537.05,11943\\n906,536.95,7736\\n907,537.15,10243\\n908,537.28,7412\\n909,537.0699,8171\\n910,537.06,14474\\n911,537.18,7154\\n912,537,14233\\n913,536.59,14315\\n914,536.42,11193\\n915,536.73,114967\\na1434720600,537.36,421718\\n1,537.85,7765\\n2,535.321,10840\\n3,534.88,17203\\n4,534.87,8415\\n5,534.8,9798\\n6,534.39,9924\\n7,534.59,5846\\n8,533.64,13389\\n9,533.791,5042\\n10,533.39,6100\\n11,534,7421\\n12,533.2,6473\\n13,533.3,4900\\n14,533.53,4199\\n15,533.3,4848\\n16,533.8923,3416\\n17,534.08,4024\\n18,534.28,800\\n19,534.69,6377\\n20,534.06,3748\\n21,534.02,1900\\n22,533.66,2450\\n23,533.26,7468\\n24,533.56,4086\\n25,533.81,2600\\n26,534.34,2525\\n27,534.39,1100\\n28,534.42,5230\\n29,534.36,1400\\n30,534.37,2000\\n31,533.82,2800\\n32,533.95,5000\\n33,533.69,2400\\n34,533.63,3537\\n35,533.39,2154\\n36,533.7499,8966\\n37,533.5,2226\\n38,533.88,2400\\n39,533.48,9699\\n40,533.75,2881\\n41,533.6,3329\\n42,533.93,1300\\n43,533.94,2600\\n44,534.62,9600\\n45,534.65,7895\\n46,534.36,5550\\n47,534.41,4180\\n48,534.265,11920\\n49,534.3,5400\\n50,534.33,4427\\n51,534.68,3634\\n52,534.63,5025\\n53,534.83,3000\\n54,534.9099,2815\\n55,534.98,2015\\n56,535.26,5366\\n57,535.2,3955\\n58,534.93,551\\n59,535.04,1400\\n60,535.12,4163\\n61,534.96,2000\\n62,535.03,3804\\n63,535.21,2535\\n64,535.03,1100\\n65,535.17,4962\\n66,535.16,400\\n67,535.23,1617\\n68,534.87,3768\\n69,534.96,4263\\n70,534.79,1400\\n71,534.74,2800\\n72,534.83,1100\\n73,535.27,3693\\n74,534.92,1500\\n75,534.9,800\\n76,534.53,2843\\n77,534.8055,2869\\n78,534.84,8366\\n79,534.6756,1930\\n80,534.66,2950\\n81,534.66,300\\n82,534.82,3211\\n83,534.88,5853\\n84,534.9,1630\\n85,534.75,1677\\n86,534.68,3350\\n87,534.67,200\\n88,534.93,400\\n89,534.74,688\\n90,534.68,1762\\n91,534.7499,937\\n92,534.53,2744\\n93,534.73,1200\\n94,534.58,5168\\n95,534.62,100\\n96,534.92,1112\\n97,535.03,850\\n98,534.97,3198\\n99,535.09,5443\\n100,535.09,700\\n101,535.1699,200\\n102,535.095,3200\\n103,535.23,1760\\n104,535.34,1100\\n105,535.3,947\\n106,535.35,4700\\n107,535.3,7710\\n108,535.005,13820\\n109,535.18,3800\\n110,535.25,3552\\n111,535.36,1100\\n112,534.98,2300\\n113,535.03,725\\n114,535.3,900\\n115,535.34,1300\\n116,535.41,2036\\n117,535.39,846\\n118,535.41,1381\\n119,535.515,3400\\n120,535.51,6895\\n121,535.62,5407\\n122,535.76,2420\\n123,535.93,3600\\n124,536.01,2122\\n125,536.32,7980\\n126,536.33,2200\\n127,536.15,2900\\n128,536.02,600\\n129,536.106,900\\n130,536.44,1712\\n131,537.1,19089\\n132,536.98,4950\\n133,537.1,5406\\n134,537.18,4500\\n135,537.28,4075\\n136,536.8,4250\\n137,537.01,3712\\n138,537.05,2300\\n139,537.05,2643\\n140,537.05,1736\\n141,536.89,2100\\n142,536.76,2701\\n143,536.85,700\\n144,536.6892,1717\\n145,536.7,2735\\n146,536.56,1300\\n147,536.42,4658\\n148,536.34,4400\\n149,536.48,2400\\n150,536.43,1300\\n151,536.19,2400\\n152,536.43,3837\\n153,536.5,3013\\n154,536.46,1409\\n155,536.59,1667\\n156,536.33,1100\\n157,536.3,2500\\n158,535.94,5141\\n159,536.02,2100\\n160,536.04,900\\n161,535.5,3000\\n162,535.86,7286\\n163,535.83,2000\\n164,535.66,2800\\n165,535.61,3695\\n166,535.82,3706\\n167,535.76,1365\\n168,535.7,2147\\n169,535.54,800\\n170,535.77,3000\\n171,535.87,1300\\n172,535.6,3837\\n173,535.5,1616\\n174,535.49,1300\\n175,535.48,3000\\n176,535.47,1490\\n177,535.45,6100\\n178,535.63,1357\\n179,535.56,3058\\n180,535.6,3009\\n181,535.47,8542\\n182,535.68,5478\\n183,535.75,6474\\n184,536.17,4257\\n185,536.04,3200\\n186,535.7022,11939\\n187,535.95,3400\\n188,536.14,7291\\n189,536.47,3427\\n190,536.92,8297\\n191,536.91,10890\\n192,537,10521\\n193,537.15,5486\\n194,537.17,22905\\n195,536.69,261757\\na1434979800,539.99,19269\\n1,540.991,20769\\n2,541.94,20610\\n3,542.7,13755\\n4,543.285,14023\\n5,543.12,15939\\n6,541.684,19516\\n7,542.87,5350\\n8,541.7585,4846\\n9,541.54,3400\\n10,541.53,2300\\n11,541.7,6063\\n12,542.15,5851\\n13,542.29,6383\\n14,541.9,2260\\n15,541.925,1466\\n16,541.7,785\\n17,541.4,2750\\n18,541.93,3601\\n19,542.0501,6055\\n20,542.17,800\\n21,542.601,4200\\n22,542.72,3100\\n23,542.94,7066\\n24,543.165,7141\\n25,543.52,8079\\n26,543.46,4231\\n27,542.74,3450\\n28,542.94,2000\\n29,542.42,2800\\n30,542.32,2569\\n31,542.549,1150\\n32,542.31,1500\\n33,542.14,1400\\n34,542.22,1694\\n35,542.155,3055\\n36,542.48,2000\\n37,542.89,6000\\n38,542.746,1800\\n39,542.4,3527\\n40,542,2203\\n41,541.52,2475\\n42,541.61,1400\\n43,541.86,2425\\n44,541.81,200\\n45,541.8,773\\n46,541.41,8337\\n47,541.53,9989\\n48,542.02,12125\\n49,542.56,9576\\n50,542.49,1980\\n51,542.03,4790\\n52,542,3753\\n53,542.1,2512\\n54,542.16,3232\\n55,542.04,3237\\n56,542.26,3130\\n57,542.66,5471\\n58,542.52,901\\n59,542.3001,900\\n60,542.72,3049\\n61,542.88,1000\\n62,542.72,2993\\n63,542.63,3500\\n64,542.81,2600\\n65,543.08,5199\\n66,542.9,6466\\n67,542.84,1600\\n68,542.89,2860\\n69,542.83,1745\\n70,542.94,1300\\n71,543,4288\\n72,543.11,3956\\n73,543.1,2150\\n74,543.015,3000\\n75,542.32,8625\\n76,542.2525,1613\\n77,542.07,1304\\n78,541.94,4006\\n79,541.38,1762\\n80,540.85,3150\\n81,540.5,5600\\n82,540.31,6282\\n83,540.54,2500\\n84,540.55,300\\n85,540.25,1546\\n86,540.325,1400\\n87,539.7,2200\\n88,539.65,1158\\n89,539.5,5868\\n90,539.33,7744\\n91,539.8111,10127\\n92,540.085,2710\\n93,540.15,1640\\n94,540.09,100\\n95,540.26,100\\n96,540.05,1200\\n97,540.098,988\\n98,540.09,1514\\n99,540.2499,400\\n100,540.22,1027\\n101,540.89,3693\\n102,541.29,2529\\n103,540.9,4800\\n104,540.9,1400\\n105,541.19,200\\n106,540.5,2300\\n107,540.28,500\\n108,540.4,1800\\n109,540.4001,2236\\n110,540.0175,2421\\n111,540.16,3200\\n112,540.08,1800\\n113,539.3,2728\\n114,539.13,3000\\n115,539.21,1000\\n116,539.1,3800\\n117,539.3,2550\\n118,539.15,1600\\n119,538.8,3871\\n120,538.82,800\\n121,538.82,2643\\n122,539.15,1000\\n123,539.15,3100\\n124,538.96,100\\n125,538.864,1300\\n126,538.88,1455\\n127,538.97,5556\\n128,539.36,6329\\n129,539.09,5008\\n130,539.32,9602\\n131,539.5,5921\\n132,539.47,1000\\n133,539.3128,3825\\n134,539.22,1400\\n135,539.7997,6000\\n136,539.398,430\\n137,539.31,300\\n138,539.39,5097\\n139,539.14,4600\\n140,539.1099,3660\\n141,539.23,500\\n142,539.35,700\\n143,539.12,1300\\n144,539.27,200\\n145,539.5,1050\\n146,538.96,1807\\n147,539.58,1946\\n148,539,1976\\n149,539.14,500\\n150,539.2725,700\\n151,538.6,1738\\n152,538.94,600\\n153,539.62,3683\\n154,539.56,764\\n155,539.7599,520\\n156,539.59,685\\n157,539.61,500\\n158,539.8,600\\n159,539.46,900\\n160,539.56,1300\\n161,539.9361,2297\\n162,540.23,648\\n163,540.01,2300\\n164,539.63,2150\\n165,539.935,1610\\n166,540.0799,2000\\n167,539.66,346\\n168,540.14,4000\\n169,540.19,1728\\n170,540.15,2682\\n171,540.1,700\\n172,540.1,2100\\n173,539.84,1700\\n174,539.64,1100\\n175,539.62,2792\\n176,539.81,3020\\n177,539.8,2200\\n178,539.5401,2478\\n179,539.67,1701\\n180,539.52,1600\\n181,539.57,4484\\n182,539.66,4529\\n183,539.4,2654\\n184,538.55,4000\\n185,538.5275,3200\\n186,538.51,8107\\n187,538.355,5184\\n188,538.35,5049\\n189,537.76,7908\\n190,538.25,9259\\n191,538.26,2959\\n192,538.05,5219\\n193,537.838,9513\\n194,537.751,7200\\n195,538.19,156376\\n720,539.45,20658\\n721,539.101,7819\\n722,538.36,6735\\n723,537.54,4471\\n724,537.17,6868\\n725,537.72,8378\\n726,538.83,2674\\n727,538.35,6510\\n728,538.7654,5927\\n729,538.5,4345\\n730,538,600\\n731,538.47,1750\\n732,537.59,2060\\n733,537.58,2700\\n734,537.68,1400\\n735,537.66,1300\\n736,537.84,3100\\n737,537.75,3520\\n738,538.125,4935\\n739,537.805,4589\\n740,538.05,4385\\n741,538.1,4621\\n742,538.4,3194\\n743,538.53,3000\\n744,538.465,700\\n745,537.22,4811\\n746,536.91,5456\\n747,536.46,6130\\n748,536.37,12950\\n749,535.7,4280\\n750,535.72,4250\\n751,536.36,3900\\n752,536.33,1321\\n753,536.3,2400\\n754,536.3599,1200\\n755,535.83,1400\\n756,536.05,3880\\n757,536.12,2600\\n758,536.12,4635\\n759,536.09,2500\\n760,536.0499,3461\\n761,535.88,1770\\n762,536.3,13705\\n763,535.87,2952\\n764,535.88,6350\\n765,535.777,1300\\n766,535.415,3503\\n767,535.435,13955\\n768,535.3348,4698\\n769,535.64,4448\\n770,536.375,4900\\n771,536.88,6791\\n772,536.4675,5466\\n773,536.47,2900\\n774,536.04,2094\\n775,536.39,1200\\n776,537.05,22837\\n777,537.1875,3500\\n778,538.13,7118\\n779,537.52,2110\\n780,537.54,5600\\n781,537.56,2300\\n782,537.88,10720\\n783,537.88,3301\\n784,537.76,2100\\n785,537.75,7728\\n786,537.63,8091\\n787,537.98,1303\\n788,537.935,3550\\n789,538.01,7460\\n790,538.24,3200\\n791,538.2,6392\\n792,538.084,6825\\n793,537.7,3500\\n794,537.45,2695\\n795,537.4,3282\\n796,537.36,4198\\n797,537.36,11900\\n798,537.3,3400\\n799,536.95,5774\\n800,537.01,2559\\n801,536.915,3800\\n802,537.27,2777\\n803,537.39,1500\\n804,537.39,5190\\n805,537.58,2714\\n806,537.54,2671\\n807,537.4,2900\\n808,537.4,3600\\n809,537.425,2300\\n810,537.8,2500\\n811,537.91,1200\\n812,538.13,2380\\n813,538.1708,755\\n814,538.65,3496\\n815,538.72,2200\\n816,538.5,700\\n817,538.45,3129\\n818,538.46,1309\\n819,538.49,2800\\n820,538.85,4159\\n821,538.91,3001\\n822,538.97,3900\\n823,538.46,2600\\n824,538.64,936\\n825,538.46,1400\\n826,538.58,1300\\n827,538.7,2500\\n828,539.04,1300\\n829,538.62,1700\\n830,538.7,1900\\n831,538.6,1818\\n832,538.93,1350\\n833,538.86,3823\\n834,539.11,4601\\n835,539.12,3224\\n836,539.14,800\\n837,539.56,3300\\n838,539.98,1930\\n839,539.69,6014\\n840,539.64,2800\\n841,539.63,1800\\n842,539.88,1500\\n843,539.62,3300\\n844,539.7,605\\n845,539.65,1100\\n846,539.79,7061\\n847,539.82,3320\\n848,540.13,9402\\n849,540.43,5050\\n850,540.52,2358\\n851,540.14,1400\\n852,539.9194,3200\\n853,540.09,1860\\n854,540.1,3317\\n855,539.9999,1900\\n856,540.12,1700\\n857,540.27,500\\n858,540.47,876\\n859,540.67,4298\\n860,540.5,2150\\n861,540.8622,7027\\n862,541.25,3975\\n863,541.25,5765\\n864,540.79,1200\\n865,540.46,1500\\n866,540.63,2400\\n867,540.51,1950\\n868,540.29,1700\\n869,540.3499,3200\\n870,540.35,2600\\n871,540,2300\\n872,540.05,1250\\n873,539.6494,3382\\n874,539.62,4864\\n875,540.27,4957\\n876,540.93,3000\\n877,540.77,1592\\n878,540.92,4390\\n879,540.97,2863\\n880,540.54,1500\\n881,540.56,2800\\n882,540.53,9202\\n883,540.44,7770\\n884,540.65,1400\\n885,540.76,1300\\n886,540.66,2100\\n887,540.67,7379\\n888,540.59,8707\\n889,540.42,3472\\n890,540.47,500\\n891,540.34,2100\\n892,540.06,2500\\n893,540.19,1200\\n894,540.19,2900\\n895,540.27,2502\\n896,540.3342,2833\\n897,540.82,4350\\n898,541.04,3301\\n899,541.2,5979\\n900,541.02,1100\\n901,541.03,2900\\n902,541.11,3496\\n903,541.09,4039\\n904,540.88,3308\\n905,540.99,3677\\n906,541.15,3700\\n907,541.18,3951\\n908,541.25,5328\\n909,541.355,4770\\n910,541.17,2100\\n911,540.839,10865\\n912,540.83,7151\\n913,540.89,8075\\n914,540.41,13714\\n915,540.48,88474\\n\",_5Y:\"EXCHANGE%3DNASDAQ\\nMARKET_OPEN_MINUTE=570\\nMARKET_CLOSE_MINUTE=960\\nINTERVAL=604800\\nCOLUMNS=DATE,CLOSE,VOLUME,CDAYS\\nDATA=\\nTIMEZONE_OFFSET=-240\\na1277496000,236.104,0,5\\n1,218.06,0,5\\n2,233.51,0,4\\n3,229.573,0,5\\n4,244.78,0,5\\n5,242.18,0,5\\n6,249.86,0,5\\n7,242.93,0,5\\n8,230.779,0,5\\n9,229.19,0,5\\n10,234.91,0,5\\n11,237.83,0,4\\n12,244.83,0,5\\n13,263.381,0,5\\n14,262.5472,0,5\\n15,267.9068,0,5\\n16,300.42,0,5\\n17,305.96,0,5\\n18,306.5432,0,5\\n19,312.23,0,5\\nTIMEZONE_OFFSET=-300\\na1289595600,301.3434,0,5\\n1,295.12,0,5\\na1290794400,294.7,0,4\\na1291410000,286.21,0,5\\n1,295.81,0,5\\n2,295.1,0,5\\na1293138000,301.8129,0,5\\na1293829200,296.69,0,5\\n1,307.91,0,5\\n2,311.78,0,5\\n3,305.61,0,4\\n4,300.19,0,5\\n5,305.18,0,5\\n6,311.94,0,5\\n7,314.72,0,5\\n8,304.71,0,4\\n9,300.01,0,5\\n10,288.07,0,5\\nTIMEZONE_OFFSET=-240\\na1300478400,280.2495,0,5\\n1,289.58,0,5\\n2,295.6,0,5\\n3,288.79,0,5\\n4,265.08,0,5\\na1303416000,262.29,0,5\\na1304107200,271.78,0,5\\n1,267.38,0,5\\n2,264.51,0,5\\n3,261.75,0,5\\n4,260.19,0,5\\n5,261.2785,0,4\\n6,254.4977,0,5\\n7,242.27,0,5\\n8,237.2,0,5\\n9,260.253,0,5\\n10,265.73,0,4\\n11,298.51,0,5\\n12,308.81,0,5\\n13,301.5432,0,5\\n14,289.23,0,5\\n15,281.6,0,5\\n16,245.21,0,5\\n17,263.17,0,5\\n18,262.16,0,5\\n19,262.16,0,4\\n20,273.07,0,5\\n21,262.49,0,5\\n22,257.26,0,5\\n23,257.302,0,5\\n24,295.54,0,5\\n25,294.95,0,5\\n26,299.77,0,5\\n27,297.77,0,5\\nTIMEZONE_OFFSET=-300\\na1321045200,303.87,0,5\\n1,297.14,0,5\\na1322244000,281.22,0,4\\na1322859600,309.87,0,5\\n1,313.4,0,5\\n2,312.667,0,5\\n3,316.25,0,5\\n4,322.63,0,4\\n5,324.68,0,4\\n6,312.18,0,5\\n7,292.7,0,4\\n8,289.7,0,5\\n9,297.87,0,5\\n10,302.65,0,5\\n11,302.0177,0,5\\n12,304.65,0,4\\n13,310.31,0,5\\n14,299.82,0,5\\nTIMEZONE_OFFSET=-240\\na1331928000,312.207,0,5\\n1,320.974,0,5\\n2,320.299,0,5\\na1333656000,315.84,0,5\\na1334347200,311.99,0,5\\n1,297.73,0,5\\n2,307.18,0,5\\n3,298.187,0,5\\n4,302.31,0,5\\n5,299.9,0,5\\n6,295.469,0,5\\n7,285.2,0,4\\n8,289.93,0,5\\n9,281.9727,0,5\\n10,285.45,0,5\\n11,289.74,0,5\\n12,292.7,0,4\\n13,287.97,0,5\\n14,305.1,0,5\\n15,317.16,0,5\\n16,320.34,0,5\\n17,320.68,0,5\\n18,338.23,0,5\\n19,338.976,0,5\\n20,342.2,0,5\\n21,352.72,0,4\\n22,354.49,0,5\\n23,366.63,0,5\\n24,376.87,0,5\\n25,383.44,0,5\\n26,372,0,5\\n27,340.554,0,5\\n28,337.24,0,5\\n29,343.615,0,4\\nTIMEZONE_OFFSET=-300\\na1352494800,331.18,0,5\\n1,323.27,0,5\\na1353693600,333.65,0,4\\na1354309200,348.84,0,5\\n1,341.7629,0,5\\n2,350.6306,0,5\\n3,357.46,0,5\\n4,349.65,0,4\\n5,368.62,0,5\\n6,369.63,0,5\\n7,351.9,0,5\\n8,376.46,0,5\\n9,387.41,0,5\\n10,392.29,0,5\\n11,396.05,0,5\\n12,399.46,0,5\\n13,402.69,0,5\\n14,415.34,0,5\\nTIMEZONE_OFFSET=-240\\na1363377600,406.744,0,5\\n1,404.75,0,5\\na1364500800,396.697,0,5\\na1365192000,391.13,0,5\\n1,394.63,0,5\\n2,399.5351,0,5\\n3,400.31,0,5\\n4,422.44,0,5\\n5,439.67,0,5\\n6,454.1354,0,5\\n7,436.22,0,5\\n8,435.173,0,5\\n9,439.43,0,5\\n10,437.08,0,5\\n11,440.02,0,5\\n12,439.74,0,5\\n13,446.3,0,5\\n14,461.038,0,5\\n15,447.851,0,5\\n16,442.23,0,5\\n17,452.83,0,5\\n18,444.76,0,5\\n19,428.026,0,5\\n20,434.67,0,5\\n21,423.03,0,5\\n22,439.35,0,5\\n23,444.089,0,5\\n24,451.1,0,5\\n25,437.76,0,5\\n26,435.74,0,5\\n27,435.56,0,5\\n28,505.1983,0,5\\n29,507.092,0,5\\n30,513.0065,0,5\\nTIMEZONE_OFFSET=-300\\na1383944400,507.51,0,5\\n1,516.26,0,5\\n2,515.43,0,5\\n3,529.2652,0,5\\n4,534.4,0,5\\n5,529.865,0,5\\n6,549.76,0,5\\n7,558.6408,0,5\\n8,551.95,0,4\\n9,564.52,0,5\\n10,574.6897,0,5\\n11,561.35,0,4\\n12,589.89,0,5\\n13,588.131,0,5\\n14,600.8,0,5\\n15,601.293,0,4\\n16,607.22,0,5\\n17,606.7876,0,5\\nTIMEZONE_OFFSET=-240\\na1394827200,585.814,0,5\\n1,590.93,0,5\\n2,559.51,6085594,5\\n3,543.14,17678895,5\\n4,530.6,18810631,5\\na1397764800,536.1,18090755,5\\na1398456000,516.18,10950930,5\\n1,527.93,11351296,5\\n2,518.73,10370780,5\\n3,520.63,7934608,5\\n4,552.7,7791333,5\\n5,559.89,6865466,4\\n6,556.33,8526472,5\\n7,551.76,6584780,5\\n8,556.36,11835551,5\\n9,577.24,9669279,5\\na1404406800,584.73,4524364,5\\na1405108800,579.18,7055273,5\\n1,595.08,11887529,5\\n2,589.02,6951032,5\\n3,566.07,7394427,5\\n4,568.77,6916122,5\\n5,573.48,6691630,5\\n6,582.56,4998946,5\\n7,571.6,7071630,5\\n8,586.08,5880849,4\\n9,575.62,6506366,5\\n10,596.08,9934581,5\\n11,577.1,8245107,5\\n12,575.28,6658611,5\\n13,544.49,10703962,5\\n14,511.17,17737539,5\\n15,539.78,12172562,5\\n16,559.08,7710006,5\\nTIMEZONE_OFFSET=-300\\na1415394000,541.01,7604875,5\\n1,544.4,5844716,5\\n2,537.5,8844766,5\\na1417197600,541.83,6151383,4\\na1417813200,525.26,8862225,5\\n1,518.66,9515311,5\\n2,516.35,16240316,5\\n3,534.03,6656928,4\\n4,524.81,5968508,4\\n5,496.17,12415664,5\\n6,508.08,11919169,5\\n7,539.95,9433420,4\\n8,534.52,14883499,5\\n9,531,10137523,5\\n10,549.01,7894272,5\\n11,538.95,5490218,4\\n12,558.4,8986113,5\\n13,567.685,8735953,5\\nTIMEZONE_OFFSET=-240\\na1426276800,547.32,7747100,5\\n1,560.36,9369516,5\\n2,548.34,9822578,5\\na1428004800,535.53,6537090,5\\na1428696000,540.01,6754557,5\\n1,524.05,9992623,5\\n2,565.06,14196810,5\\n3,537.9,9438178,5\\n4,538.22,7331908,5\\n5,533.85,7167800,5\\n6,540.11,8040103,5\\n7,532.11,7558787,4\\n8,533.33,8296914,5\\n9,532.33,6967688,5\\n10,536.69,7725338,5\\n\",corp_actions:\"[{\\\"_adjustment_factor\\\":\\\"0.4995\\\",\\\"_date\\\":\\\"1396531800\\\",\\\"_quote\\\":\\\"NASD:GOOG\\\",\\\"_type\\\":\\\"stock_dividend\\\"}]\",related_items:[{ticker:\"INDEXDJX:.DJI\",name:\"Dow
+        Jones\",timezone_offset:-18000,is_index:true,different_market_session:false},{ticker:\"INDEXNASDAQ:.IXIC\",name:\"Nasdaq\",timezone_offset:-18000,is_index:true,different_market_session:false},{ticker:\"NASDAQ:BIDU\",name:\"BIDU\",timezone_offset:-18000,is_index:false},{ticker:\"NASDAQ:YNDX\",name:\"YNDX\",timezone_offset:-18000,is_index:false},{ticker:\"NASDAQ:BCOR\",name:\"BCOR\",timezone_offset:-18000,is_index:false},{ticker:\"NASDAQ:YHOO\",name:\"YHOO\",timezone_offset:-18000,is_index:false},{ticker:\"NASDAQ:MSFT\",name:\"MSFT\",timezone_offset:-18000,is_index:false},{ticker:\"NASDAQ:IACI\",name:\"IACI\",timezone_offset:-18000,is_index:false},{ticker:\"NYSE:IBM\",name:\"IBM\",timezone_offset:-18000,is_index:false}]}};\ngoogle.finance.data.numberFormat
+        = [{'threshold':1000000, 'symbol':'M'}, {'threshold':1000000000,'symbol':'B'},
+        {'threshold':1000000000000,'symbol':'T'}] ;\n_setStickyUrlParams(\"ei=fqeKVeDlJ8ScUt2TgcAE\");\nif
+        (_s_Store) {\n_s_Store._allowMatchAdvancedSearch = true;\nvar _fieldToDisplayNameMap
+        = {GrossMargin:\"Gross margin&nbsp;(%)\",Return1Week:\"1w return\",Return156Week:\"156w
+        return\",NextYearEPS:\"Next year EPS\",LTDebtToAssetsYear:\"LT debt/assets
+        (Recent&nbsp;yr)&nbsp;(%)\",RevenueGrowthRate5Years:\"5y revenue growth rate\",EarningsAfterTaxes:\"Earnings
+        after taxes\",DividendPerShare:\"Div per share\",MarketCap:\"Market cap\",NetProfitMarginPercent:\"Net
+        profit margin&nbsp;(%)\",Float:\"Float\",EarningsBeforeTaxes:\"Earnings before
+        taxes\",QuotePercChange:\"Quote change&nbsp;(%)\",TotalDebtToEquityYear:\"Total
+        debt/equity (Recent&nbsp;yr)&nbsp;(%)\",TotalDebtToCapitalQuarter:\"Total
+        debt/capital (Recent&nbsp;qtr)&nbsp;(%)\",LTDebtToCapitalQuarter:\"LT debt/capital
+        (Recent&nbsp;qtr)&nbsp;(%)\",EPSGrowthRate10Years:\"10y EPS growth rate\",Beta:\"Beta\",ReturnOnAssetsPTM:\"Return
+        on assets (PTM)&nbsp;(%)\",CapitalGain:\"Capital gain\",BetaDown:\"Beta down
+        from RAS\",IncomeDividend:\"Income dividend\",RevenueGrowthRate10Years:\"10y
+        revenue growth rate\",MarketCapShareBasis:\"Market cap share basis\",IAD:\"Div
+        rate indicated annual\",Return4Week:\"4w return\",Price150DayAverage:\"150d
+        avg price\",EPSGrowthRate5Years:\"5y EPS growth rate\",ReturnOnAssetsTTM:\"Return
+        on assets (TTM)&nbsp;(%)\",TotalDebtToAssetsYear:\"Total debt/assets (Recent&nbsp;yr)&nbsp;(%)\",Volume:\"Volume\",DividendRecentQuarter:\"Div
+        recent quarter\",CurrentRatioYear:\"Current ratio\",Low52Week:\"52w low\",ExpenseRatio:\"Expense
+        ratio\",Price13WeekPercChange:\"13w&nbsp;price change&nbsp;(%)\",Price1DayPercChange:\"1d&nbsp;price
+        change&nbsp;(%)\",ReturnOnEquity5Years:\"Return on equity (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",TotalDebtToCapitalYear:\"Total
+        debt/capital (Recent&nbsp;yr)&nbsp;(%)\",TotalDebtToAssetsQuarter:\"Total
+        debt/assets (Recent&nbsp;qtr)&nbsp;(%)\",NavChange:\"Nav change\",OperatingMargin:\"Operating
+        margin&nbsp;(%)\",DPSRecentYear:\"Div per share (Recent&nbsp;yr)\",ANI:\"Earnings
+        after taxes (Recent&nbsp;yr)\",AverageVolume:\"Average volume\",High52Week:\"52w
+        high\",Return13Week:\"13w return\",PriceToCashFlowPerShare:\"Price to cash
+        flow per share\",ATAXRATE:\"Tax rate (Recent&nbsp;yr)\",Price26WeekPercChange:\"26w&nbsp;price
+        change&nbsp;(%)\",QuoteChange:\"Quote change\",NetIncomeChangePerc:\"Net income
+        change&nbsp;(%)\",ReturnOnInvestment5Years:\"Return on investment (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",PE:\"P/E
+        ratio\",ReturnOnInvestmentYear:\"Return on investment (Recent&nbsp;yr)&nbsp;(%)\",Price200DayAverage:\"200d
+        avg price\",DividendNextQuarter:\"Div next quarter\",EBITD:\"EBITDA\",PriceYTDPercChange:\"YTD&nbsp;price
+        change&nbsp;(%)\",ReturnOnInvestmentTTM:\"Return on investment (TTM)&nbsp;(%)\",NavChangePercent:\"Nav
+        change&nbsp;(%)\",EBITDMargin:\"EBITDA margin&nbsp;(%)\",LTDebtToEquityQuarter:\"LT
+        debt/equity (Recent&nbsp;qtr)&nbsp;(%)\",BetaRAS:\"Beta from RAS\",PriceSales:\"Price
+        to sales\",NetAssets:\"Net assets\",ReturnOnEquityTTM:\"Return on equity (TTM)&nbsp;(%)\",CashPerShareYear:\"Cash/share\",ReturnOnAssets5Years:\"Return
+        on assets (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",ReturnDay:\"1d return\",Return52Week:\"52w
+        return\",ForwardPE1Year:\"1y fwd P/E\",NetIncomeGrowthRate5Years:\"5y net
+        income growth rate\",DividendYield:\"Div yield&nbsp;(%)\",Dividend:\"Div from
+        cash flow\",BetaUp:\"Beta up from RAS\",LTDebtToCapitalYear:\"LT debt/capital
+        (Recent&nbsp;yr)&nbsp;(%)\",nprice:\"Price from RAS\",Return260Week:\"260w
+        return\",ReturnOnEquityQuarter:\"Return on equity (Recent&nbsp;qtr)&nbsp;(%)\",ACOGS:\"Cost
+        of goods sold\",LTDebtToAssetsQuarter:\"LT debt/assets (Recent&nbsp;qtr)&nbsp;(%)\",PriceToBook:\"Price
+        to book\",LTDebtToEquityYear:\"LT debt/equity (Recent&nbsp;yr)&nbsp;(%)\",ReturnYTD:\"Return
+        YTD\",ReturnOnEquityYear:\"Return on equity (Recent&nbsp;yr)&nbsp;(%)\",ReturnOnAssetsQuarter:\"Return
+        on assets (Recent&nbsp;qtr)&nbsp;(%)\",TotalDebtToEquityQuarter:\"Total debt/equity
+        (Recent&nbsp;qtr)&nbsp;(%)\",NavPrior:\"Nav prior\",AINTCOV:\"Interest coverage\",EPS:\"EPS\",ReturnOnInvestmentQuarter:\"Return
+        on investment (Recent&nbsp;qtr)&nbsp;(%)\",QuoteLast:\"Last price\",Price50DayAverage:\"50d
+        avg price\",Price4WeekPercChange:\"4w&nbsp;price change&nbsp;(%)\",ReturnOnAssetsYear:\"Return
+        on assets (Recent&nbsp;yr)&nbsp;(%)\",MarketCapRAS:\"Mkt cap from RAS\",Price52WeekPercChange:\"52w&nbsp;price
+        change&nbsp;(%)\",ShortInterestRatioPercent:\"Short interest ratio&nbsp;(%)\",InstitutionalPercentHeld:\"Institutional
+        percent held\",BookValuePerShareYear:\"Book value/share\",ReturnOnEquityPTM:\"Return
+        on equity (PTM)&nbsp;(%)\"};\n_s_Store._asStore._addStrings(_fieldToDisplayNameMap);\n}\nif
+        (_s_Store) {\n_s_Store._allowMultipleInBox = true;\n}\ngoogle.finance.renderRecentQuotes();\n</script>\n<div
+        class=\"g-section g-tpl-right-1\">\n<div class=\"g-unit g-first\">\n<div class=g-c>\n<div
+        id=r-perf class=\"g-section g-tpl-67-33 g-split nwp\">\n<div id=r-perf-quotes
+        class=\"id-r-perf-quotes g-unit g-first\"></div>\n<div id=r-perf-charts class=\"id-r-perf-charts
+        g-unit\"></div>\n</div>\n<script>google.finance.renderRelativePerformance();</script>\n</div>\n</div>\n<div
+        class=g-unit>\n<div id=market-data-div class=\"id-market-data-div nwp g-floatfix\">\n<div
+        id=price-panel class=\"id-price-panel goog-inline-block\">\n<div>\n<span class=\"pr\">\n<span
+        id=\"ref_304466804484872_l\">540.48</span>\n</span>\n<div class=\"id-price-change
+        nwp\">\n<span class=\"ch bld\"><span class=\"chb\" id=\"ref_304466804484872_c\">0.00</span>\n<span
+        class=\"chb\" id=\"ref_304466804484872_cp\">(0.00%)</span>\n</span>\n</div>\n</div>\n<div>Pre-market:&nbsp;<span
+        class=bld id=\"ref_304466804484872_el\">540.48</span>\n<span id=\"ref_304466804484872_ec\"
+        class=\"chb\">0.00</span>\n<span id=\"ref_304466804484872_ecp\" class=\"chb\">(0.00%)</span>\n<div
+        id=\"ref_304466804484872_elt\">Jun 24, 8:38AM EDT&nbsp;&nbsp;<div class=mdata-dis>\n<span
+        class=dis-large><nobr>NASDAQ\nreal-time data -\n<a href=\"//www.google.com/help/stock_disclaimer.html#realtime\"
+        \ class=dis-large>Disclaimer</a>\n</nobr></span>\n<div>Currency in USD</div>\n</div>\n</div>\n</div>\n</div>\n<div
+        class=\"snap-panel-and-plusone\">\n<div class=\"snap-panel\">\n<table class=\"snap-data\">\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"range\">Range\n</td>\n<td class=\"val\">&nbsp;&nbsp;&nbsp;&nbsp;-\n</td>\n</tr>\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"range_52week\">52 week\n</td>\n<td
+        class=\"val\">487.56 - 599.65\n</td>\n</tr>\n<tr>\n<td class=\"key\"\n          data-snapfield=\"open\">Open\n</td>\n<td
+        class=\"val\">&nbsp;&nbsp;&nbsp;&nbsp;-\n</td>\n</tr>\n<tr>\n<td class=\"key\"\n
+        \         data-snapfield=\"vol_and_avg\">Vol / Avg.\n</td>\n<td class=\"val\">144.00/1.58M\n</td>\n</tr>\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"market_cap\">Mkt cap\n</td>\n<td
+        class=\"val\">377.14B\n</td>\n</tr>\n<tr>\n<td class=\"key\"\n          data-snapfield=\"pe_ratio\">P/E\n</td>\n<td
+        class=\"val\">26.83\n</td>\n</tr></table><table class=\"snap-data\">\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"latest_dividend-dividend_yield\">Div/yield\n</td>\n<td
+        class=\"val\">&nbsp;&nbsp;&nbsp;&nbsp;-\n</td>\n</tr>\n<tr>\n<td class=\"key\"\n
+        \         data-snapfield=\"eps\">EPS\n</td>\n<td class=\"val\">20.15\n</td>\n</tr>\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"shares\">Shares\n</td>\n<td class=\"val\">342.63M\n</td>\n</tr>\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"beta\">Beta\n</td>\n<td class=\"val\">&nbsp;&nbsp;&nbsp;&nbsp;-\n</td>\n</tr>\n<tr>\n<td
+        class=\"key\"\n          data-snapfield=\"inst_own\">Inst. own\n</td>\n<td
+        class=\"val\">69%\n</td>\n</tr>\n</table>\n</div>\n<div class=\"plusone-box\"
+        id=\"plusone-box\">\n<g:plusone size=\"standard\" source=\"google:FINANCE\"></g:plusone></div>\n</div>\n</div>\n<script>google.finance.renderMarketData();</script>\n<div
+        id=\"sharebox-data\"\n     itemscope=\"itemscope\"\n     itemtype=\"http://schema.org/Intangible/FinancialQuote\">\n<meta
+        itemprop=\"name\"\n        content=\"Google Inc\" />\n<meta itemprop=\"url\"\n
+        \       content=\"https://www.google.com/finance?cid=694653\" />\n<meta itemprop=\"imageUrl\"\n
+        \       content=\"https://www.google.com/finance/chart?cht=g&q=NASDAQ:GOOG&tkr=1&p=1d&enddatetime=2015-06-23T16:20:12Z\"
+        />\n<meta itemprop=\"tickerSymbol\"\n        content=\"GOOG\" />\n<meta itemprop=\"exchange\"\n
+        \       content=\"NASDAQ\" />\n<meta itemprop=\"exchangeTimezone\"\n        content=\"America/New_York\"
+        />\n<meta itemprop=\"price\"\n        content=\"540.48\" />\n<meta itemprop=\"priceChange\"\n
+        \       content=\"0.00\" />\n<meta itemprop=\"priceChangePercent\"\n        content=\"0.00\"
+        />\n<meta itemprop=\"isPreMarket\"\n        content=\"true\">\n<meta itemprop=\"afterHoursPrice\"\n
+        \       content=\"540.48\">\n<meta itemprop=\"afterHoursPriceChange\"\n        content=\"0.00\">\n<meta
+        itemprop=\"afterHoursPriceChangePercent\"\n        content=\"0.00\">\n<meta
+        itemprop=\"afterHoursQuoteTime\"\n        content=\"2015-06-24T12:38:27Z\">\n<meta
+        itemprop=\"quoteTime\"\n        content=\"2015-06-23T16:20:12Z\" />\n<meta
+        itemprop=\"dataSource\"\n        content=\"NASDAQ real-time data\" />\n<meta
+        itemprop=\"dataSourceDisclaimerUrl\"\n        content=\"//www.google.com/help/stock_disclaimer.html#realtime\"
+        />\n<meta itemprop=\"priceCurrency\"\n        content=\"USD\" />\n</div>\n</div>\n</div>\n<div
+        class=\"g-section g-tpl-right-1 sfe-break-top-5\">\n<div class=\"g-unit g-first\">\n<div
+        class=g-c><div>\n<div id=newstabsgroup>\n<div class=\"g-section g-tpl-25-75
+        g-split hdg\">\n<div class=\"g-unit g-first\">\n<h3>News</h3>\n</div>\n<div
+        class=g-unit>\n<div id=news-panel-tabs class=\"id-news-tabs\" style=\"display:none;\">\n<div
+        class=\"goog-tab goog-tab-selected\">\n<a id=news_tab_title class=t>\n<b class=t><b
+        class=t>Relevance</b></b></a>\n</div>\n<div class=goog-tab>\n<a id=news_by_date_tab_title
+        class=t>\n<b class=t><b class=t>Date</b></b></a>\n</div>\n</div>\n</div>\n</div>\n<div
+        id=tabs-clear class=\"id-tabs-clear goog-tab-bar-clear hide\"></div>\n<div
+        id=news_div_cont class=id-news_div_cont style=\"display:none;\"></div>\n<div
+        id=news_by_date_div_cont class=id-news_by_date_div_cont style=\"display:none;\"></div>\n</div>\n<div
+        class=\"sfe-section clf\" id=news-footer>\n<div id=news-sidebar-footer class=\"g-section
+        g-tpl-67-33 g-split\">\n<div class=\"g-unit g-first\">\n<a href=\"/finance/company_news?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\"
+        >All news for Google Inc &raquo;</a>\n</div><div class=g-unit>\n<a href=\"/finance/company_news?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE&output=rss\">Subscribe</a>\n<a
+        href=\"/finance/company_news?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE&output=rss\"><img
+        class=SP_subscribe src=\"/finance/s/m4C5KaofCbA/images/cleardot.gif\" alt=\"Subscribe.\"
+        id=rss\n        width=15 height=15 /></a>\n</div>\n</div>\n</div>\n</div>\n<div
+        id=ad class=\"sfe-break-top sfe-break-bottom-16\">\n<div id=ad-label\n                       class=\"id-ad-label
+        invisible\">Advertisement</div>\n<div id=ad-target class=\"id-ad-target ads-300-250\"></div>\n</div>\n<div
+        class=\"g-section g-tpl-25-75 g-split hdg\">\n<div class=\"g-unit g-first\">\n<h3>Events</h3>\n</div>\n<div
+        class=\"g-unit\">\n<div class=sfe-break-right-em>\n<img src=\"/finance/s/m4C5KaofCbA/images/cleardot.gif\"\n
+        \              width=16 height=16 class=SP_calendar id=calendar alt=\"\">\n<a
+        onclick=\"_GF_click('', 'add_ical', 'GOOG', '')\" href=\"//www.google.com/calendar/render?ei=fqeKVeDlJ8ScUt2TgcAE&hl=en&cid=http://www.google.com:80%2Ffinance%2Fevents%3Fq%3DNASDAQ%3AGOOG%26output%3Dical\"
+        >Add GOOG to my calendars</a>\n</div>\n</div>\n</div>\n<div class=\"events
+        sfe-section\">\n<div class=event>\n<div class=\"bld date\">Jul 15, 2015</div>\n<div>Q2
+        2015 Google Inc Earnings Release (Estimated)\n- <span class=time>4:00PM EDT</span>
+        -\n<a onclick=\"_GF_click('', 'add_cal_evnt', 'GOOG', '')\" href= \"\n  //www.google.com/calendar/event?ei=fqeKVeDlJ8ScUt2TgcAE&hl=en&action=TEMPLATE&text=Q2+2015+Google+Inc+Earnings+Release+(Estimated)&dates=20150715T200000Z/20150715T210000Z&sprop=finance\"
+        \ class=time>\n<img alt=\"Add to calendar\" src=\"/finance/s/m4C5KaofCbA/images/cleardot.gif\"\n
+        \               width=16 height=16 class=SP_calendar id=calendar>\n</a>\n</div>\n</div>\n<div
+        class=event>\n<div class=\"bld date\">Jun 3, 2015</div>\n<div>Google Inc Annual
+        Shareholders Meeting -\n<a onclick=\"_GF_click('', 'webcast', 'GOOG', '')\"
+        href=//www.google.com/url?source=finance&q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV14ZcyuiwbI&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNF9wKplM__bKexNMcaJJsOCQgAFFg
+        \ class=time>\n<img alt=\"Webcast\" src=\"/finance/s/m4C5KaofCbA/images/cleardot.gif\"\n
+        \               width=19 height=16 class=SP_webcast id=webcast>\n</a>\n</div>\n</div>\n<div
+        class=event>\n<div class=\"bld date\">May 14, 2015</div>\n<div>Google Inc
+        Annual Shareholders Meeting (Estimated)\n</div>\n</div>\n<div class=event>\n<div
+        class=\"bld date\">Apr 23, 2015</div>\n<div>Q1 2015 Google Inc Earnings Call\n</div>\n</div>\n<div
+        class=event>\n<div class=\"bld date\">Apr 23, 2015</div>\n<div>Q1 2015 Google
+        Inc Earnings Release\n</div>\n</div>\n<table><tr>\n<td>\n<a href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.dailyfinance.com%2Fevent%2FGOOG%2Fusa&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNE3ONfhvQSc7fbdtDyRb0qjUyLXMQ\"
+        >\nMore events from DailyFinance &raquo;</a>&nbsp;\n&nbsp;&nbsp;<nobr>\n</td>\n</tr></table>\n</div>\n<div
+        class=hdg><h3>Key stats and ratios</h3></div>\n<div class=sfe-section>\n<table
+        class=\"quotes rgt nwp\" width=\"100%\">\n<thead><tr>\n<td width=50%>\n<td
+        class=colHeader>Q1 (Mar &#39;15)\n<td class=colHeader>2014\n</tr></thead>\n<tr>\n<td
+        class=\"lft name\">Net profit margin\n<td class=period>20.78%\n<td class=period>21.10%\n<tr>\n<td
+        class=\"lft name\">Operating margin\n<td class=period>25.77%\n<td class=period>24.99%\n<tr>\n<td
+        class=\"lft name\">EBITD margin\n<td class=period>-\n<td class=period>32.54%\n<tr>\n<td
+        class=\"lft name\">Return on average assets\n<td class=period>10.87%\n<td
+        class=period>11.51%\n<tr>\n<td class=\"lft name\">Return on average equity\n<td
+        class=period>13.51%\n<td class=period>14.52%\n<tr>\n<td class=\"lft name\">Employees\n<td
+        class=period>55,419\n<td class=period>-\n<tr>\n<td class=\"lft name\">CDP
+        Score\n<td class=period>-\n<td class=period>\n<a id=m-cdi href=//www.google.com/url?source=finance&q=https%3A%2F%2Fwww.cdp.net%2Fen-US%2FResults%2FPages%2FCompany-Responses.aspx%3Fcompany%3D7616&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHEgT3bLzGLOBWTO-S39p5muRBmQA>94
+        A</a>\n</table>\n<div class=sfe-break-top>\n<a id=\"similar\" href=\"/finance/similar?q=NASDAQ:GOOG&amp;ei=fqeKVeDlJ8ScUt2TgcAE\"
+        >Screen stocks with similar metrics &raquo;</a></div>\n</div>\n<div class=hdg><h3>Address</h3></div>\n<div
+        class=sfe-section>1600 Amphitheatre Pkwy<br/>MOUNTAIN VIEW, CA 94043-1351<br/>United
+        States\n- <a href=\"http://maps.google.com/maps?ei=fqeKVeDlJ8ScUt2TgcAE&q=1600+Amphitheatre+Pkwy+MOUNTAIN+VIEW+94043-1351+United+States%20(Google+Inc)\"
+        >Map</a><br/>+1-650-6234000 (Phone)<br>+1-302-6555049 (Fax)<br>\n</div>\n<div
+        class=hdg><h3>Website links</h3></div>\n<div class=sfe-section><div class=item>\n<a
+        id=fs-chome href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.google.com&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGDdE1x3VtznNqMKkTtsME0N-QH4w\"
+        >\nhttp://www.google.com\n</a>\n</div>\n<a id=fs- class=item href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fgoogleblog.blogspot.com&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNG8OddaqouKfzsqt8MiKzNznPtWnw\"
+        >Official Blog</a>\n</div>\n<div class=hdg><h3>External links</h3></div>\n<div
+        class=sfe-section>\n<div class=item><a id=m-analyst\n                 href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.marketwatch.com%2Ftools%2Fquotes%2Fsnapshot.asp%3Fsymb%3DGOOG%26pg%3Danalyst&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNFADkTU6rEUmebCO14STSDUjARhUw
+        >Analyst Estimates</a> - <font color=\"#6F6F6F\">MarketWatch</font></div>\n<div
+        class=item><a id=m-sec\n                 href=//www.google.com/url?source=finance&q=http%3A%2F%2Fgoogle.brand.edgar-online.com%3Fsym%3DGOOG&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNFMUVQjWGVJwuUf_b_qC-8Ipdux4w
+        >SEC Filings</a> - <font color=\"#6F6F6F\">EDGAR Online</font></div>\n<div
+        class=item><a id=m-hold\n                 href=//www.google.com/url?source=finance&q=http%3A%2F%2Finvesting.money.msn.com%2Finvestments%2Finstitutional-ownership%3Fsymbol%3DGOOG&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNEYvSyvgy2S8ncHel98TOhtByH_eQ
+        >Major Holders</a> - <font color=\"#6F6F6F\">MSN Money</font></div>\n<div
+        class=item><a id=m-research\n                 href=//www.google.com/url?source=finance&q=https%3A%2F%2Fcommerce.us.reuters.com%2Fpurchase%2FadvancedSearch.do%3Fsymbol%3DGOOGL.O%26rpc%3D68&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNEJmsodwB7BmS-Z3EyG6OAhc3Pjfw
+        >Research Reports</a> - <font color=\"#6F6F6F\">Reuters</font></div>\n<div
+        class=item><a id=m-transcripts\n                 href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.seekingalpha.com%2Ftranscripts%2Ffor%2FGOOG&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGzJUi9_6rnCOGxc5kIeJ034SPHHw
+        >Transcripts</a> - <font color=\"#6F6F6F\">SeekingAlpha</font></div>\n<div
+        class=item><a id=m-wiki\n                 href=//www.google.com/url?source=finance&q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGoogle&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHCfavJy5qVwD_nthUdH_-NoEPKNQ
+        >About Company</a> - <font color=\"#6F6F6F\">Wikipedia</font></div>\n</div>\n</div>\n</div>\n<div
+        class=g-unit>\n<div id=top-section class=\"g-c sfe-break-right\">\n<div id=chart-section>\n<div>\n<div
+        id=compare-bar-wrapper class=id-compare-bar-wrapper>\n<div id=compare-bar
+        class=\"id-compare-bar g-section\">\n</div>\n</div>\n<div id=chart_anchor
+        class=id-chart_anchor></div>\n<div class=id-chart-footer>\n<div class=\"g-section
+        g-tpl-67-33 g-split sfe-break-bottom-8 overflow-floatfix\">\n<div class=\"g-unit
+        g-first\"><div class=\"id-chart-footer-links hide\">\n<span class=settings-link>Settings</span>
+        |\n<span class=technicals-link>Technicals</span> |\n<span style=\"white-space:nowrap;\">\n<img
+        width=\"16\" hight=\"9\" alt=\"Link to chart icon.\"\n            class=\"linktochart-img
+        SP_link\"\n            src=\"/finance/s/m4C5KaofCbA/images/cleardot.gif\"
+        />\n<span class=linktochart-link>\nLink to this view</span>\n</span>\n</div></div>\n<div
+        class=\"g-unit\">\n<span class=\"chart-dis\">Volume delayed by 15 mins.\n</span>\n</div>\n</div>\n</div>\n<script>\nvar
+        _minZoomDays = 1;\nvar _minZoomDaysNoIntraDay = _minZoomDays;\nvar _timeZoneOffset
+        = '-18000';\n_chartConfigObject = {};\n_chartConfigObject.hasVolume = _displayVolume;\n_chartConfigObject.hasNews
+        = true;\n_chartConfigObject.hasExtendedHours = true;\n_chartConfigObject.hasDefaultZoomSetting
+        = true;\n_chartConfigObject.hasVerticalScaleSetting = true;\n_chartConfigObject.displayVolume
+        = 'true';\n_chartConfigObject.displayNewsPins = 'true';\n_chartConfigObject.displayDividends
+        = 'true';\n_chartConfigObject.displaySplits = 'true';\n_chartConfigObject.displayExtendedHours
+        = 'false';\n_chartConfigObject.enableCustomDateEntry = true\n_chartConfigObject.defaultZoomDays
+        = '3';\n_chartConfigObject.snapping = false;\n_chartConfigObject.verticalScaling
+        = 'maximized';\n_chartConfigObject.sparklineType = 'dynamic';\n// set _minZoomDays
+        and _minZoomDaysNoIntraDay in each page before emit the\n// chart to passing
+        the value to chart, otherwise default value will be use.\n_chartConfigObject.minZoomDaysNormal
+        = _minZoomDays;\n_chartConfigObject.minZoomDaysNoIntraDay = _minZoomDaysNoIntraDay;\n_chartConfigObject.enableIndicator
+        = true;\n_chartConfigObject.companyId = '304466804484872';\n_chartConfigObject.enableRealtimeChart
+        = true;\n_chartConfigObject.isMarketOpenState = 0;\n_chartConfigObject.stateRemainingMinutes
+        = 39;\n_chartConfigObject.delayedMinutes = 0;\n_chartConfigObject.delayedMinutes
+        = Math.max(\n_chartConfigObject.delayedMinutes,\n15);\n_chartConfigObject.enableChartTypeSetting
+        = true;\n_chartConfigObject.lineStyle = 'IntervalBasedLine';\n_chartConfigObject.defaultInterval
+        = '86400';\n_chartConfigObject.enableIndicatorSetting = true;\n_chartConfigObject.biasSetting
+        = '';\n_chartConfigObject.emaSetting = '';\n_chartConfigObject.kdjSetting
+        = '';\n_chartConfigObject.macdSetting = '';\n_chartConfigObject.rsiSetting
+        = '';\n_chartConfigObject.smaSetting = '';\n_chartConfigObject.vmaSetting
+        = '';\n_chartConfigObject.cciSetting = '';\n_chartConfigObject.williamsPercentRSetting
+        = '';\n_chartConfigObject.bollingerBandsSetting = '';\n_chartConfigObject.fastStochasticSetting
+        = '';\n_chartConfigObject.slowStochasticSetting = '';\n_chartConfigObject.expandButtonEnabled
+        = true;\n_chartConfigObject.companyCurrency = 'USD';\n_chartConfigObject.displayDividendsUnits
+        = 'true';\nvar configStringFromCookie = '{}';\nvar configString = unescape(configStringFromCookie);\nvar
+        obj = eval('(' + configString + ')');\nfor (var attribute in obj) {\n_chartConfigObject[attribute]
+        = obj[attribute];\n}\n_external_target = \"\";\n_emitFlashChart(\n\"/finance/s/aEc4Twn89CE/chart9.swf?hl=en&gl=us\",\n_ticker,
+        _chartConfigObject,\"http:\\x2F\\x2Fwww.google.com:80\");\n</script>\n<noscript>\n<div
+        id=image_chart style=\"display:block;\">\n<table>\n<tr><td class=itxt align=left>\n</td></tr>\n<tr><td>\n<img
+        alt=\"Chart.\" src=\"/finance/getchart?q=GOOG&x=NASD&p=3d&i=240&ei=fqeKVeDlJ8ScUt2TgcAE\"
+        width=\"500\" height=\"322\">\n</td></tr>\n</table>\n</div>\n</noscript>\n<div
+        style=\"height:1em;\"></div>\n</div>\n</div>\n<div id=ad2>\n<div id=ad2-label
+        class=invisible>Advertisement</div>\n<div id=ad2-target class=id-ad2-target></div>\n</div>\n</div>\n<div
+        class=\"g-c sfe-break-right\">\n<div id=related class=\"id-related hide\">\n<div
+        class=hdg>\n<div class=float>\n<h3>Related companies</h3>\n</div>\n</div>\n<div>\n<div
+        class=\"g-section g-tpl-50-50 g-split gf-control\">\n<div class=\"g-unit g-first\">\nShow:\n<select
+        id=related-select class=id-related-select>\n<option value=mrq >\nMost Recent
+        Quarter\n</option>\n<option value=mra selected>\nMost Recent Annual\n</option>\n</select>\n</div>\n<div
+        class=g-unit>\n<span class=\"id-related-edit-col linkbtn\">Add or remove columns</span>\n<button
+        class=id-related-save style=\"display:none\">Save changes</button>\n<button
+        class=id-related-cancel style=\"display:none\">Cancel</button>\n</div>\n</div>\n</div>\n<div
+        class=\"id-related-table gf-table-scroll-x jfk-scrollbar\"\n       style=\"padding-bottom:15px;\">\n</div>\n<div
+        class=sfe-section>\n<div class=\"g-section g-tpl-50-50 g-split\">\n<div class=\"g-unit
+        g-first\">Sector: <a id=sector href=\"?catid=us-TRBC:57&amp;ei=fqeKVeDlJ8ScUt2TgcAE\"
+        >Technology</a> &gt; Industry: <a href=\"?catid=us-TRBC:5720103011&amp;ei=fqeKVeDlJ8ScUt2TgcAE\"
+        >Search Engines</a>\n</div><div class=g-unit>\n<a href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.factset.com%2Fdata%2Ffactset_data%2Findustry-and-sector&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGLA7ngUpvyRfinLZiaITmchZsrHQ\"
+        >More from FactSet &raquo;</a>\n</div>\n</div>\n</div>\n</div>\n<div id=reorder
+        class=id-reorder><div class=mid-reorder>\n<div id=blogs-section\n>\n</div>\n<div
+        id=summary-section\n>\n<div id=summary>\n<div class=hdg><div class=float>\n<h3>Description</h3></div>\n<div
+        class=\"gf-reorder-btn SP_menu_button\"></div>\n</div>\n<div class=sfe-section>\n<div
+        class=companySummary>\nGoogle Inc. (Google) provides its products and services
+        in more than 100 languages and in more than 50 countries, regions and territories.
+        The Company offers a range of products across screens and devices. The Company
+        delivers both performance advertising and brand advertising. The Performance
+        advertising creates and delivers relevant ads, which leads to direct engagement
+        with advertisers. Brand advertising enhances users' awareness of and affinity
+        with advertisers' products and services, through videos, text, images, and
+        other interactive ads that run across various devices. The Company has an
+        ad technology platform for brand advertisers, agencies, and publishers to
+        power its digital marketing businesses across display, mobile, and video.\n<div
+        class=sfe-break-top>\n<a id=m-rprofile href=//www.google.com/url?source=finance&q=http%3A%2F%2Fstocks.us.reuters.com%2Fstocks%2FfullDescription.asp%3Frpc%3D66%26symbol%3DGOOGL.O&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNE14AvNRNkiw039JS5_1iwVsUbgWQ
+        >\nMore from Reuters &raquo;\n</a></div>\n</div>\n</div>\n</div>\n</div><script>_tck('aft');</script>\n<div
+        id=mgmt-section\n>\n<div id=management style=\"margin-bottom:1.5em;\">\n<div
+        class=hdg><div class=float>\n<h3>Officers and directors</h3></div>\n<div class=\"gf-reorder-btn
+        SP_menu_button\"></div>\n</div>\n<div class=sfe-section>\n<table class=id-mgmt-table
+        width=100%><tbody>\n<tr >\n<td class=\"p linkbtn\">Eric E. Schmidt Ph.D.\n<td
+        class=i>\n<td class=t>Executive Chairman of the Board\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 59<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480644&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHLOvSbY0jd2CxjHCIGkuN14VVFUg
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Lawrence E. Page\n<td class=i>\n<td
+        class=t>Chief Executive Officer, Co-Founder, Director\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 42<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480651&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGxBrYW3PuDoWXToARH45QwxGAbcA
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Sergey Brin\n<td class=i>\n<td class=t>Co-Founder,
+        Director\n</tr>\n<tr style=\"display:none;\">\n<td><img width=1 height=1 border=0
+        align=right>\n<td class=i>\n<td class=t>\nAge: 41<br>\n<a class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480647&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNEkZi_2M6Sf0JBjaj9D3mhnK1o6zQ
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<a
+        class=e-t href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fbiz.yahoo.com%2Ft%2F27%2F6414.html&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNEootXJecBbGQ89cW1dPmNPR3LmHw\"
+        >Trading&nbsp;Activity</a>&nbsp;-&nbsp;<font color=\"#606060\">Yahoo&nbsp;Finance</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Ruth Porat\n<td class=i>\n<td class=t>Chief
+        Financial Officer, Senior Vice President\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 58<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D2594505&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHQ85I5Zh7AL6JrSWrCLfRl1TjKeg
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Omid Kordestani\n<td class=i>\n<td
+        class=t>Senior Vice President and Chief Business Officer\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 51<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480652&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNH23t9ZSUaPmajs34RsDOiT3QYXqA
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<a
+        class=e-t href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fbiz.yahoo.com%2Ft%2F24%2F6414.html&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGYNQXB2X0kSRq2WCn8wf5tvZO_mA\"
+        >Trading&nbsp;Activity</a>&nbsp;-&nbsp;<font color=\"#606060\">Yahoo&nbsp;Finance</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">David C. Drummond\n<td class=i>\n<td
+        class=t>Senior Vice President - Corporate Development, Chief Legal Officer,
+        Secretary\n</tr>\n<tr style=\"display:none;\">\n<td><img width=1 height=1
+        border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 52<br>\n<a class=e-p
+        href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480654&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNGW4thGxWsr2v2bPDtpe0_6ndBMcQ
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<a
+        class=e-t href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fbiz.yahoo.com%2Ft%2F22%2F6414.html&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNFGh8Wy3imHcGaaDWxRGZJp623Z4w\"
+        >Trading&nbsp;Activity</a>&nbsp;-&nbsp;<font color=\"#606060\">Yahoo&nbsp;Finance</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">John L. Hennessy Ph.D.\n<td class=i>\n<td
+        class=t>Lead Independent Director\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 62<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480659&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHYYE5WUAxeIC0FrPjJV6JCz8Vsjw
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Alan R. Mulally\n<td class=i>\n<td
+        class=t>Director\n</tr>\n<tr style=\"display:none;\">\n<td><img width=1 height=1
+        border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 69<br>\n<a class=e-p
+        href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D2530079&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNFnCJEi-oJWSgjxTqGjDN3ZyV34Ow
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">L. John Doerr\n<td class=i>\n<td
+        class=t>Independent Director\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 63<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D480658&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNEsTXu5R7gySGAwRtncujjCPCpmCg
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n<tr
+        class=grey-top>\n<td class=\"p linkbtn\">Diane B. Greene\n<td class=i>\n<td
+        class=t>Independent Director\n</tr>\n<tr style=\"display:none;\">\n<td><img
+        width=1 height=1 border=0 align=right>\n<td class=i>\n<td class=t>\nAge: 59<br>\n<a
+        class=e-p href=//www.google.com/url?source=finance&q=http%3A%2F%2Fwww.reuters.com%2Ffinance%2Fstocks%2FofficerProfile%3Fsymbol%3DGOOGL.O%26officerId%3D1678945&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNHN8_Flw4_grWoHR94BHbm0R-fk4Q
+        >\nBio&nbsp;&amp;&nbsp;Compensation\n</a>&nbsp;-&nbsp;<font color=\"#606060\">Reuters</font><br>\n</table>\n<div
+        class=gb>\n<a href=\"//www.google.com/url?source=finance&q=http%3A%2F%2Fstocks.us.reuters.com%2Fstocks%2FofficersDirectors.asp%3Fsymbol%3DGOOGL.O%26WTmodLOC%3DC4-Officers-5&ei=fqeKVeDlJ8ScUt2TgcAE&usg=AFQjCNFrJdqYI-umkC-ZXedSlYRWyyZzQQ\"
+        >\nFull list on Reuters &raquo;</a></div>\n</div>\n</div>\n</div>\n</div></div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div></div><div
+        id=gf-foot><div id=fjfe-edition-links class=fjfe-footer-links>Google Finance
+        Beta available in: <a href=\"http://www.google.com.hk/finance?ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-edition-link\">Hong Kong</a> - <a href=\"http://www.google.ca/finance?ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-edition-link\">Canada</a> - <a href=\"http://www.google.com/finance?ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-edition-link\">U.S.</a> - <a href=\"http://www.google.com.hk/finance?hl=zh-CN&ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-edition-link\">China</a> - <a href=\"http://www.google.co.uk/finance?ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-edition-link\">U.K.</a></div><p class=fjfe-footer-disclaimer>Information
+        is provided \"as is\" and solely for informational purposes, not for trading
+        purposes or advice, and may be delayed.<br>To see all exchange delays, please
+        <a href=\"http://www.google.com/intl/en/googlefinance/disclaimer/?ei=fqeKVeDlJ8ScUt2TgcAE\"
+        class=\"fjfe-secondary-link fjfe-no-sticky-params\"> see disclaimer</a>.</p><div
+        class=fjfe-footer-links>&copy;2015 Google - <a href=\"http://www.google.com?hl=en&ei=fqeKVeDlJ8ScUt2TgcAE\">Google
+        Home</a> - <a href=\"http://googlefinanceblog.blogspot.com?ei=fqeKVeDlJ8ScUt2TgcAE\">Blog</a>
+        - <a href=\"http://support.google.com/finance?hl=en&ei=fqeKVeDlJ8ScUt2TgcAE\">Help</a>
+        - <a href=\"http://support.google.com/finance?ctx=report&hl=en&ei=fqeKVeDlJ8ScUt2TgcAE&exch=NASDAQ&sym=GOOG\">Report
+        a Problem</a> - <a href=\"http://www.google.com/intl/en/policies/privacy/?ei=fqeKVeDlJ8ScUt2TgcAE\">Privacy
+        Policy</a> - <a href=\"http://www.google.com/intl/en/policies/terms/?ei=fqeKVeDlJ8ScUt2TgcAE\">Terms
+        of Service</a></div></div>\n<script>\nvar _chartConfigObject;\nvar _cleardot;\nvar
+        _companyName;\nvar _eventid = 'fqeKVeDlJ8ScUt2TgcAE';\nvar _expid;\nvar _external_target;\nvar
+        _localDomain = 'www.google.com';\nvar _minZoomDays;\nvar _minZoomDaysNoIntraDay;\nvar
+        _prefs;\nvar _ticker;\nvar _urlSuffix;\n_setStickyUrlParams(\"ei=fqeKVeDlJ8ScUt2TgcAE\");\nif
+        (_s_Store) {\n_s_Store._allowMatchAdvancedSearch = true;\nvar _fieldToDisplayNameMap
+        = {GrossMargin:\"Gross margin&nbsp;(%)\",Return1Week:\"1w return\",Return156Week:\"156w
+        return\",NextYearEPS:\"Next year EPS\",LTDebtToAssetsYear:\"LT debt/assets
+        (Recent&nbsp;yr)&nbsp;(%)\",RevenueGrowthRate5Years:\"5y revenue growth rate\",EarningsAfterTaxes:\"Earnings
+        after taxes\",DividendPerShare:\"Div per share\",MarketCap:\"Market cap\",NetProfitMarginPercent:\"Net
+        profit margin&nbsp;(%)\",Float:\"Float\",EarningsBeforeTaxes:\"Earnings before
+        taxes\",QuotePercChange:\"Quote change&nbsp;(%)\",TotalDebtToEquityYear:\"Total
+        debt/equity (Recent&nbsp;yr)&nbsp;(%)\",TotalDebtToCapitalQuarter:\"Total
+        debt/capital (Recent&nbsp;qtr)&nbsp;(%)\",LTDebtToCapitalQuarter:\"LT debt/capital
+        (Recent&nbsp;qtr)&nbsp;(%)\",EPSGrowthRate10Years:\"10y EPS growth rate\",Beta:\"Beta\",ReturnOnAssetsPTM:\"Return
+        on assets (PTM)&nbsp;(%)\",CapitalGain:\"Capital gain\",BetaDown:\"Beta down
+        from RAS\",IncomeDividend:\"Income dividend\",RevenueGrowthRate10Years:\"10y
+        revenue growth rate\",MarketCapShareBasis:\"Market cap share basis\",IAD:\"Div
+        rate indicated annual\",Return4Week:\"4w return\",Price150DayAverage:\"150d
+        avg price\",EPSGrowthRate5Years:\"5y EPS growth rate\",ReturnOnAssetsTTM:\"Return
+        on assets (TTM)&nbsp;(%)\",TotalDebtToAssetsYear:\"Total debt/assets (Recent&nbsp;yr)&nbsp;(%)\",Volume:\"Volume\",DividendRecentQuarter:\"Div
+        recent quarter\",CurrentRatioYear:\"Current ratio\",Low52Week:\"52w low\",ExpenseRatio:\"Expense
+        ratio\",Price13WeekPercChange:\"13w&nbsp;price change&nbsp;(%)\",Price1DayPercChange:\"1d&nbsp;price
+        change&nbsp;(%)\",ReturnOnEquity5Years:\"Return on equity (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",TotalDebtToCapitalYear:\"Total
+        debt/capital (Recent&nbsp;yr)&nbsp;(%)\",TotalDebtToAssetsQuarter:\"Total
+        debt/assets (Recent&nbsp;qtr)&nbsp;(%)\",NavChange:\"Nav change\",OperatingMargin:\"Operating
+        margin&nbsp;(%)\",DPSRecentYear:\"Div per share (Recent&nbsp;yr)\",ANI:\"Earnings
+        after taxes (Recent&nbsp;yr)\",AverageVolume:\"Average volume\",High52Week:\"52w
+        high\",Return13Week:\"13w return\",PriceToCashFlowPerShare:\"Price to cash
+        flow per share\",ATAXRATE:\"Tax rate (Recent&nbsp;yr)\",Price26WeekPercChange:\"26w&nbsp;price
+        change&nbsp;(%)\",QuoteChange:\"Quote change\",NetIncomeChangePerc:\"Net income
+        change&nbsp;(%)\",ReturnOnInvestment5Years:\"Return on investment (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",PE:\"P/E
+        ratio\",ReturnOnInvestmentYear:\"Return on investment (Recent&nbsp;yr)&nbsp;(%)\",Price200DayAverage:\"200d
+        avg price\",DividendNextQuarter:\"Div next quarter\",EBITD:\"EBITDA\",PriceYTDPercChange:\"YTD&nbsp;price
+        change&nbsp;(%)\",ReturnOnInvestmentTTM:\"Return on investment (TTM)&nbsp;(%)\",NavChangePercent:\"Nav
+        change&nbsp;(%)\",EBITDMargin:\"EBITDA margin&nbsp;(%)\",LTDebtToEquityQuarter:\"LT
+        debt/equity (Recent&nbsp;qtr)&nbsp;(%)\",BetaRAS:\"Beta from RAS\",PriceSales:\"Price
+        to sales\",NetAssets:\"Net assets\",ReturnOnEquityTTM:\"Return on equity (TTM)&nbsp;(%)\",CashPerShareYear:\"Cash/share\",ReturnOnAssets5Years:\"Return
+        on assets (5&nbsp;yr&nbsp;avg)&nbsp;(%)\",ReturnDay:\"1d return\",Return52Week:\"52w
+        return\",ForwardPE1Year:\"1y fwd P/E\",NetIncomeGrowthRate5Years:\"5y net
+        income growth rate\",DividendYield:\"Div yield&nbsp;(%)\",Dividend:\"Div from
+        cash flow\",BetaUp:\"Beta up from RAS\",LTDebtToCapitalYear:\"LT debt/capital
+        (Recent&nbsp;yr)&nbsp;(%)\",nprice:\"Price from RAS\",Return260Week:\"260w
+        return\",ReturnOnEquityQuarter:\"Return on equity (Recent&nbsp;qtr)&nbsp;(%)\",ACOGS:\"Cost
+        of goods sold\",LTDebtToAssetsQuarter:\"LT debt/assets (Recent&nbsp;qtr)&nbsp;(%)\",PriceToBook:\"Price
+        to book\",LTDebtToEquityYear:\"LT debt/equity (Recent&nbsp;yr)&nbsp;(%)\",ReturnYTD:\"Return
+        YTD\",ReturnOnEquityYear:\"Return on equity (Recent&nbsp;yr)&nbsp;(%)\",ReturnOnAssetsQuarter:\"Return
+        on assets (Recent&nbsp;qtr)&nbsp;(%)\",TotalDebtToEquityQuarter:\"Total debt/equity
+        (Recent&nbsp;qtr)&nbsp;(%)\",NavPrior:\"Nav prior\",AINTCOV:\"Interest coverage\",EPS:\"EPS\",ReturnOnInvestmentQuarter:\"Return
+        on investment (Recent&nbsp;qtr)&nbsp;(%)\",QuoteLast:\"Last price\",Price50DayAverage:\"50d
+        avg price\",Price4WeekPercChange:\"4w&nbsp;price change&nbsp;(%)\",ReturnOnAssetsYear:\"Return
+        on assets (Recent&nbsp;yr)&nbsp;(%)\",MarketCapRAS:\"Mkt cap from RAS\",Price52WeekPercChange:\"52w&nbsp;price
+        change&nbsp;(%)\",ShortInterestRatioPercent:\"Short interest ratio&nbsp;(%)\",InstitutionalPercentHeld:\"Institutional
+        percent held\",BookValuePerShareYear:\"Book value/share\",ReturnOnEquityPTM:\"Return
+        on equity (PTM)&nbsp;(%)\"};\n_s_Store._asStore._addStrings(_fieldToDisplayNameMap);\n}\nif
+        (_s_Store) {\n_s_Store._allowMultipleInBox = true;\n}\n_regOnLoad(onCompanyLoad);\n</script>\n</div></div><script>var
+        googlefinance = {i: [\"f.b.id\",\"\",null,0,\"\",0,null,[\"f.b.cf\",\"2gMDYVmDK2c.en_US.\",0],[],0,[],\"fqeKVeDlJ8ScUt2TgcAE\",\"www.google.com\",\"uFwLt4urJS1rcqalUbXuY7fWdak:1435150207595\",1]};
+        GF_domReady = 1;</script></body></html>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 12:50:07 GMT
+recorded_with: VCR 2.9.3
