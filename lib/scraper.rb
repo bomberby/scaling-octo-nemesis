@@ -46,6 +46,7 @@ class Scraper
   rescue Exception => e
     @faulty_services << {:type => 'url list', :name=> 'url list',:details => 'Failed to load url list'}
     Rails.logger.error "Failed to send summary mail!:#{e.message}\nstack:#{e.backtrace.take(8)}"
+    []
   end
 
   def self.post_results(results,errors)
