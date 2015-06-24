@@ -24,6 +24,9 @@ gem 'therubyracer' #required by jbuilder
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'haml'
+
+gem 'rest-client', '~> 1.6.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -46,6 +49,9 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem "letter_opener"
+end
 group :test do
   gem 'vcr' #used to store results from sites fetch
   gem 'webmock', '<=1.8.0'

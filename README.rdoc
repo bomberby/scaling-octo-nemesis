@@ -1,3 +1,5 @@
 == README
 
 This app is designed to scrape and retrieve data from several data sources and consolidate the current stock prices, and post it to a static file
+
+It's an overglorified rake task, and the rails app is there for future expansion

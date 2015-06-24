@@ -1,0 +1,4 @@
+STOCKS_SOURCE: https://s3.amazonaws.com/bucket/stock_file.csv
+PASTEBIN_DEV_KEY: pastebindevidshouldbehere
+MAILS_FROM: mail@from.com
+MAILS_TO: mail@to.com

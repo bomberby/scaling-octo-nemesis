@@ -11,7 +11,7 @@ else
     c.cassette_library_dir = 'vcr_cassettes'
     c.hook_into :webmock
     c.ignore_request do |request|
-      request.uri =~ /amazonaws/ or
+      #request.uri =~ /amazonaws/ or
       request.uri =~ /localhost/ 
     end
   end

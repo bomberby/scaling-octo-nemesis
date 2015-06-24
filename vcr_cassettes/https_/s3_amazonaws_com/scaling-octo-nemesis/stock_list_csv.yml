@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://s3.amazonaws.com/scaling-octo-nemesis/stock_list.csv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.1.5p273 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - s3.amazonaws.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - 300
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - bVCAtMPZyODm/Bdb0wOIAiHoEUIPy+ZW04JAf3Y6ntkOwmxDfwcWsn1mvhn1wJWF
+      X-Amz-Request-Id:
+      - 5FDE5B3D27544B10
+      Date:
+      - Wed, 24 Jun 2015 14:59:27 GMT
+      Last-Modified:
+      - Wed, 24 Jun 2015 14:46:51 GMT
+      Etag:
+      - '"6e2e593527cb742dc15a918be0c3884b"'
+      Accept-Ranges:
+      - bytes
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '11'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: "GOOG,AMZN\r\n"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 14:59:26 GMT
+recorded_with: VCR 2.9.3

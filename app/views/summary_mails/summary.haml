@@ -1,0 +1,21 @@
+%strong 
+  Results:
+- @urls.each do |url|
+  %div= url.to_s
+  %br
+%br
+%br
+-if @faults.present?
+  %strong The errors were found in following objects
+  %br
+  - @faults.each do |fault|
+    %div
+      %strong Type:
+      = fault[:type].to_s
+      %strong Name:
+      = fault[:name].to_s
+      %strong Details:
+      = fault[:details].to_s
+    %br
+-else
+  %strong No errors occured while scraping
